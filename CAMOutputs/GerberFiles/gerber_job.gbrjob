@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-04-02T20:10:26Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.3.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "audio sense board rv1"
+        },
+        "Owner": "Aaron Ciuffo <aaron.ciuffo@gmail.com>",
+        "Size": {
+            "X": 94.92,
+            "Y": 35.55
+        }
+    }
+}
