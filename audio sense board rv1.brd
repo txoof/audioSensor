@@ -3,7 +3,7 @@
 <eagle version="9.3.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -150,9 +150,9 @@
 <wire x1="0" y1="34.28" x2="0" y2="-1.27" width="0" layer="20"/>
 <text x="22.86" y="10.16" size="1.778" layer="21" rot="R270">Ch2</text>
 <text x="16.51" y="6.35" size="1.778" layer="21" rot="R90">Ch1</text>
-<text x="48.26" y="25.4" size="1.778" layer="21">Aaron Ciuffo
+<text x="49.53" y="22.86" size="1.778" layer="21">Aaron Ciuffo
 txoof.com
-https://github.com/txoof/</text>
+https://github.com/txoof/audioSensor</text>
 </plain>
 <libraries>
 <library name="Samac Populated">
