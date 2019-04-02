@@ -2763,7 +2763,7 @@ LED</description>
 <part name="R5" library="Samac Populated" deviceset="CRCW120610K0FKEAC" device="" value="10K"/>
 <part name="R6" library="Samac Populated" deviceset="CRCW120610K0FKEAC" device="" value="10K"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC1" library="Samac Populated" deviceset="A000053" device=""/>
+<part name="ARDUINOMICRO" library="Samac Populated" deviceset="A000053" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="1206" package3d_urn="urn:adsk.eagle:package:39352/1" value="LTST-C930GKT"/>
 <part name="IC2" library="Samac Populated" deviceset="TSOP38238" device=""/>
@@ -2849,7 +2849,7 @@ LED</description>
 <instance part="GND1" gate="1" x="33.02" y="17.78" smashed="yes">
 <attribute name="VALUE" x="30.48" y="15.24" size="1.778" layer="96"/>
 </instance>
-<instance part="IC1" gate="G$1" x="-71.12" y="147.32" smashed="yes">
+<instance part="ARDUINOMICRO" gate="G$1" x="-71.12" y="147.32" smashed="yes">
 <attribute name="NAME" x="-34.29" y="154.94" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-34.29" y="152.4" size="1.778" layer="96" align="center-left"/>
 </instance>
@@ -2980,7 +2980,7 @@ LED</description>
 <wire x1="33.02" y1="58.42" x2="33.02" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
 <junction x="33.02" y="55.88"/>
-<pinref part="IC1" gate="G$1" pin="A1"/>
+<pinref part="ARDUINOMICRO" gate="G$1" pin="A1"/>
 <wire x1="43.18" y1="55.88" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="116.84" x2="-30.48" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
@@ -3056,7 +3056,7 @@ LED</description>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="IC1" gate="G$1" pin="GND_2"/>
+<pinref part="ARDUINOMICRO" gate="G$1" pin="GND_2"/>
 <wire x1="-12.7" y1="139.7" x2="-30.48" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -3105,7 +3105,7 @@ LED</description>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="IC1" gate="G$1" pin="GND_1"/>
+<pinref part="ARDUINOMICRO" gate="G$1" pin="GND_1"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -3124,14 +3124,14 @@ LED</description>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
-<pinref part="IC1" gate="G$1" pin="11(PWM)"/>
+<pinref part="ARDUINOMICRO" gate="G$1" pin="11(PWM)"/>
 <wire x1="-81.28" y1="109.22" x2="-71.12" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <wire x1="-83.82" y1="157.48" x2="-83.82" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="2/SDA"/>
+<pinref part="ARDUINOMICRO" gate="G$1" pin="2/SDA"/>
 <wire x1="-83.82" y1="132.08" x2="-71.12" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="OUT"/>
 <wire x1="-83.82" y1="157.48" x2="-121.92" y2="157.48" width="0.1524" layer="91"/>
@@ -3139,7 +3139,7 @@ LED</description>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="10(PWM)/A10"/>
+<pinref part="ARDUINOMICRO" gate="G$1" pin="10(PWM)/A10"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="-71.12" y1="111.76" x2="-78.74" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="111.76" x2="-78.74" y2="124.46" width="0.1524" layer="91"/>
@@ -3152,7 +3152,7 @@ LED</description>
 <wire x1="162.56" y1="58.42" x2="162.56" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="55.88" x2="175.26" y2="55.88" width="0.1524" layer="91"/>
 <junction x="162.56" y="55.88"/>
-<pinref part="IC1" gate="G$1" pin="A2"/>
+<pinref part="ARDUINOMICRO" gate="G$1" pin="A2"/>
 <wire x1="175.26" y1="55.88" x2="175.26" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="119.38" x2="-30.48" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="A"/>
@@ -3235,7 +3235,7 @@ LED</description>
 <junction x="127" y="76.2"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="+5V"/>
+<pinref part="ARDUINOMICRO" gate="G$1" pin="+5V"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 <wire x1="-22.86" y1="134.62" x2="-30.48" y2="134.62" width="0.1524" layer="91"/>
 </segment>
@@ -3255,7 +3255,7 @@ LED</description>
 <wire x1="190.5" y1="55.88" x2="190.5" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="81.28" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
 <junction x="68.58" y="81.28"/>
-<pinref part="IC1" gate="G$1" pin="A0"/>
+<pinref part="ARDUINOMICRO" gate="G$1" pin="A0"/>
 <wire x1="-30.48" y1="114.3" x2="60.96" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="114.3" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
 <junction x="60.96" y="73.66"/>
