@@ -293,22 +293,22 @@
 <wire x1="-1.575" y1="-0.8" x2="-1.575" y2="0.8" width="0.1" layer="51"/>
 <wire x1="0" y1="0.7" x2="0" y2="-0.7" width="0.2" layer="21"/>
 </package>
-<package name="RESC3216X60N@1">
-<description>&lt;b&gt;CRCW1206&lt;/b&gt;&lt;br&gt;
+<package name="RESC3116X70N">
+<description>&lt;b&gt;ERJ8G&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-1.5" y="0" dx="1.8" dy="1.05" layer="1" rot="R90"/>
-<smd name="2" x="1.5" y="0" dx="1.8" dy="1.05" layer="1" rot="R90"/>
+<smd name="1" x="-1.45" y="0" dx="1.7" dy="1.1" layer="1" rot="R90"/>
+<smd name="2" x="1.45" y="0" dx="1.7" dy="1.1" layer="1" rot="R90"/>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.275" y1="1.15" x2="2.275" y2="1.15" width="0.05" layer="51"/>
-<wire x1="2.275" y1="1.15" x2="2.275" y2="-1.15" width="0.05" layer="51"/>
-<wire x1="2.275" y1="-1.15" x2="-2.275" y2="-1.15" width="0.05" layer="51"/>
-<wire x1="-2.275" y1="-1.15" x2="-2.275" y2="1.15" width="0.05" layer="51"/>
-<wire x1="-1.575" y1="0.8" x2="1.575" y2="0.8" width="0.1" layer="51"/>
-<wire x1="1.575" y1="0.8" x2="1.575" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="1.575" y1="-0.8" x2="-1.575" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="-1.575" y1="-0.8" x2="-1.575" y2="0.8" width="0.1" layer="51"/>
-<wire x1="0" y1="0.7" x2="0" y2="-0.7" width="0.2" layer="21"/>
+<wire x1="-2.25" y1="1.1" x2="2.25" y2="1.1" width="0.05" layer="51"/>
+<wire x1="2.25" y1="1.1" x2="2.25" y2="-1.1" width="0.05" layer="51"/>
+<wire x1="2.25" y1="-1.1" x2="-2.25" y2="-1.1" width="0.05" layer="51"/>
+<wire x1="-2.25" y1="-1.1" x2="-2.25" y2="1.1" width="0.05" layer="51"/>
+<wire x1="-1.562" y1="0.775" x2="1.562" y2="0.775" width="0.1" layer="51"/>
+<wire x1="1.562" y1="0.775" x2="1.562" y2="-0.775" width="0.1" layer="51"/>
+<wire x1="1.562" y1="-0.775" x2="-1.562" y2="-0.775" width="0.1" layer="51"/>
+<wire x1="-1.562" y1="-0.775" x2="-1.562" y2="0.775" width="0.1" layer="51"/>
+<wire x1="0" y1="0.675" x2="0" y2="-0.675" width="0.2" layer="21"/>
 </package>
 <package name="LTSTC930KRKT">
 <description>&lt;b&gt;LTST-C930KRKT_manual&lt;/b&gt;&lt;br&gt;
@@ -424,7 +424,17 @@
 <pin name="GND" x="0" y="-2.54" length="middle"/>
 <pin name="VS" x="25.4" y="0" length="middle" rot="R180"/>
 </symbol>
-<symbol name="CRCW12061K00FKEAC">
+<symbol name="ERJ-8GEYJ102V">
+<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="ERJ8GEYJ101V">
 <wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
@@ -435,26 +445,6 @@
 <pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
 </symbol>
 <symbol name="CRCW1206100RJNEAC">
-<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle"/>
-<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
-<symbol name="CRCW120639K0FKEAC">
-<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle"/>
-<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
-<symbol name="CRCW120610K0FKEAC">
 <wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
@@ -664,26 +654,57 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/7085086"&gt; Datashee
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRCW12061K00FKEAC" prefix="R">
-<description>&lt;b&gt;Thick Film Resistors - SMD 1/4Watt 1Kohms 1% Commercial Use&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/CRCW12061K00FKEAC.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="ERJ-8GEYJ102V" prefix="R">
+<description>&lt;b&gt;Thick Film Resistors - SMD 1206 1Kohms 5% Tol AEC-Q200&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E PZ 3 AOA0001 ERJ8GEYJ102V 7 WW"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="CRCW12061K00FKEAC" x="0" y="0"/>
+<gate name="G$1" symbol="ERJ-8GEYJ102V" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="RESC3216X60N@1">
+<device name="" package="RESC3116X70N">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 1/4Watt 1Kohms 1% Commercial Use" constant="no"/>
-<attribute name="HEIGHT" value="0.6mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW12061K00FKEAC" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="71-CRCW12061K00FKEAC" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW12061K00FKEAC" constant="no"/>
+<attribute name="ALLIED_NUMBER" value="70266199" constant="no"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj102v/70266199/" constant="no"/>
+<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 1206 1Kohms 5% Tol AEC-Q200" constant="no"/>
+<attribute name="HEIGHT" value="0.7mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-8GEYJ102V" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERJ-8GEYJ102V" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERJ-8GEYJ102V" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ERJ8GEYJ101V" prefix="R">
+<description>&lt;b&gt;PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ERJ8GEYJ101V.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ERJ8GEYJ101V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC3116X70N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ALLIED_NUMBER" value="70265175" constant="no"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" constant="no"/>
+<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" constant="no"/>
+<attribute name="HEIGHT" value="0.7mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
 </technology>
@@ -711,60 +732,6 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/CRCW1206100RJN
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW1206100RJNEAC" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="71-CRCW1206100RJNEAC" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW1206100RJNEAC" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CRCW120639K0FKEAC" prefix="R">
-<description>&lt;b&gt;Thick Film Resistors - SMD 1/4Watt 39Kohms 1% Commercial Use&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/CRCW120639K0FKEAC.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="CRCW120639K0FKEAC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RESC3216X60N@1">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 1/4Watt 39Kohms 1% Commercial Use" constant="no"/>
-<attribute name="HEIGHT" value="0.6mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW120639K0FKEAC" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="71-CRCW120639K0FKEAC" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW120639K0FKEAC" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CRCW120610K0FKEAC" prefix="R">
-<description>&lt;b&gt;Thick Film Resistors - SMD 1/4Watt 10Kohms 1% Commercial Use&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/CRCW120610K0FKEAC.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="CRCW120610K0FKEAC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RESC3216X60N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 1/4Watt 10Kohms 1% Commercial Use" constant="no"/>
-<attribute name="HEIGHT" value="0.6mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW120610K0FKEAC" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="71-CRCW120610K0FKEAC" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW120610K0FKEAC" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
 </technology>
@@ -2242,12 +2209,12 @@ part number 2062-2P from STA</description>
 <part name="C2" library="Samac Populated" deviceset="TAJB226M010RNJ" device=""/>
 <part name="C3" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="22PF" device="-PTH-2.54MM-200V-5%" package3d_urn="urn:adsk.eagle:package:37435/1" value="1uF"/>
 <part name="Q1" library="Samac Populated" deviceset="2N3904" device=""/>
-<part name="R1" library="Samac Populated" deviceset="CRCW12061K00FKEAC" device="" value="1K"/>
-<part name="R2" library="Samac Populated" deviceset="CRCW1206100RJNEAC" device="" value="100"/>
-<part name="R3" library="Samac Populated" deviceset="CRCW120639K0FKEAC" device="" value="39K"/>
-<part name="R4" library="Samac Populated" deviceset="CRCW120610K0FKEAC" device="" value="10K"/>
-<part name="R5" library="Samac Populated" deviceset="CRCW120610K0FKEAC" device="" value="10K"/>
-<part name="R6" library="Samac Populated" deviceset="CRCW120610K0FKEAC" device="" value="10K"/>
+<part name="R1" library="Samac Populated" deviceset="ERJ-8GEYJ102V" device="" value="1K"/>
+<part name="R2" library="Samac Populated" deviceset="ERJ8GEYJ101V" device="" value="100"/>
+<part name="R3" library="Samac Populated" deviceset="ERJ8GEYJ101V" device="" value="39K"/>
+<part name="R4" library="Samac Populated" deviceset="ERJ8GEYJ101V" device="" value="10K"/>
+<part name="R5" library="Samac Populated" deviceset="ERJ8GEYJ101V" device="" value="10K"/>
+<part name="R6" library="Samac Populated" deviceset="ERJ8GEYJ101V" device="" value="10K"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="ARDUINOMICRO" library="Samac Populated" deviceset="A000053" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -2260,12 +2227,12 @@ part number 2062-2P from STA</description>
 <part name="C5" library="Samac Populated" deviceset="TAJB226M010RNJ" device=""/>
 <part name="C6" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="22PF" device="-PTH-2.54MM-200V-5%" package3d_urn="urn:adsk.eagle:package:37435/1" value="1uF"/>
 <part name="Q2" library="Samac Populated" deviceset="2N3904" device=""/>
-<part name="R8" library="Samac Populated" deviceset="CRCW12061K00FKEAC" device="" value="1K"/>
-<part name="R9" library="Samac Populated" deviceset="CRCW1206100RJNEAC" device="" value="100"/>
-<part name="R10" library="Samac Populated" deviceset="CRCW120639K0FKEAC" device="" value="39K"/>
-<part name="R11" library="Samac Populated" deviceset="CRCW120610K0FKEAC" device="" value="10K"/>
-<part name="R12" library="Samac Populated" deviceset="CRCW120610K0FKEAC" device="" value="10K"/>
-<part name="R15" library="Samac Populated" deviceset="CRCW120610K0FKEAC" device="" value="10K"/>
+<part name="R8" library="Samac Populated" deviceset="ERJ8GEYJ101V" device="" value="1K"/>
+<part name="R9" library="Samac Populated" deviceset="ERJ8GEYJ101V" device="" value="100"/>
+<part name="R10" library="Samac Populated" deviceset="ERJ8GEYJ101V" device="" value="39K"/>
+<part name="R11" library="Samac Populated" deviceset="ERJ8GEYJ101V" device="" value="10K"/>
+<part name="R12" library="Samac Populated" deviceset="ERJ8GEYJ101V" device="" value="10K"/>
+<part name="R15" library="Samac Populated" deviceset="ERJ8GEYJ101V" device="" value="10K"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
@@ -2277,7 +2244,7 @@ part number 2062-2P from STA</description>
 <part name="LED1" library="Samac Populated" deviceset="LTST-C930KRKT" device=""/>
 <part name="LED2" library="Samac Populated" deviceset="LTST-C930KRKT" device=""/>
 <part name="R7" library="Samac Populated" deviceset="CRCW1206100RJNEAC" device=""/>
-<part name="R13" library="Samac Populated" deviceset="CRCW1206100RJNEAC" device=""/>
+<part name="R13" library="Samac Populated" deviceset="ERJ8GEYJ101V" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R14" library="Samac Populated" deviceset="CRCW1206100RJNEAC" device="" value="100"/>
 </parts>
@@ -2443,8 +2410,8 @@ part number 2062-2P from STA</description>
 <attribute name="VALUE" x="-63.5" y="73.66" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R14" gate="G$1" x="-104.14" y="104.14" smashed="yes">
-<attribute name="NAME" x="-95.25" y="107.95" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-102.87" y="107.95" size="1.778" layer="96" rot="R90" align="center-left"/>
+<attribute name="NAME" x="-97.79" y="107.95" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-100.33" y="110.49" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
