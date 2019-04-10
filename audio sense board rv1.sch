@@ -2239,7 +2239,7 @@ part number 2062-2P from STA</description>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="LOCK" package3d_urn="urn:adsk.eagle:package:38045/1" value="Debug Jumper"/>
+<part name="DEBUG" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_02" device="LOCK" package3d_urn="urn:adsk.eagle:package:38045/1" value="Debug Jumper"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED1" library="Samac Populated" deviceset="LTST-C930KRKT" device=""/>
 <part name="LED2" library="Samac Populated" deviceset="LTST-C930KRKT" device=""/>
@@ -2383,7 +2383,7 @@ part number 2062-2P from STA</description>
 <instance part="GND7" gate="1" x="-73.66" y="134.62" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-76.2" y="137.16" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="J2" gate="G$1" x="50.8" y="111.76" smashed="yes" rot="R180">
+<instance part="DEBUG" gate="G$1" x="50.8" y="111.76" smashed="yes" rot="R180">
 <attribute name="VALUE" x="53.34" y="116.586" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="53.34" y="106.172" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
@@ -2543,7 +2543,7 @@ part number 2062-2P from STA</description>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="DEBUG" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="121.92" x2="43.18" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -2668,7 +2668,7 @@ part number 2062-2P from STA</description>
 <label x="-25.4" y="114.3" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="DEBUG" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="109.22" x2="40.64" y2="109.22" width="0.1524" layer="91"/>
 <label x="40.64" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -2689,28 +2689,28 @@ part number 2062-2P from STA</description>
 </net>
 <net name="STATUS_CH1" class="0">
 <segment>
-<pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="-111.76" y1="83.82" x2="-119.38" y2="83.82" width="0.1524" layer="91"/>
-<label x="-119.38" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="ARDUINOMICRO" gate="G$1" pin="A4"/>
 <wire x1="-30.48" y1="124.46" x2="-25.4" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="124.46" x2="-25.4" y2="127" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="127" x2="-22.86" y2="127" width="0.1524" layer="91"/>
 <label x="-22.86" y="127" size="1.778" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="STATUS_CH2" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="-111.76" y1="71.12" x2="-119.38" y2="71.12" width="0.1524" layer="91"/>
 <label x="-119.38" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+</net>
+<net name="STATUS_CH2" class="0">
 <segment>
 <pinref part="ARDUINOMICRO" gate="G$1" pin="A3"/>
 <wire x1="-30.48" y1="121.92" x2="-22.86" y2="121.92" width="0.1524" layer="91"/>
 <label x="-22.86" y="121.92" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="-111.76" y1="83.82" x2="-119.38" y2="83.82" width="0.1524" layer="91"/>
+<label x="-119.38" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$9" class="0">
