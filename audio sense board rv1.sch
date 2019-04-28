@@ -2286,8 +2286,8 @@ part number 2062-2P from STA</description>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED1" library="Samac Populated" deviceset="LTST-C930KRKT" device=""/>
 <part name="LED2" library="Samac Populated" deviceset="LTST-C930KRKT" device=""/>
-<part name="R7" library="Samac Populated" deviceset="CRCW1206100RJNEAC" device=""/>
-<part name="R13" library="Samac Populated" deviceset="ERJ8GEYJ101V" device=""/>
+<part name="R7" library="Samac Populated" deviceset="ERJ8GEYJ101V" device="" value="100"/>
+<part name="R13" library="Samac Populated" deviceset="ERJ8GEYJ101V" device="" value="100"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R14" library="Samac Populated" deviceset="CRCW1206100RJNEAC" device="" value="100"/>
 <part name="J1" library="Samac Populated" deviceset="PJRAN1X1U01X" device=""/>
@@ -2335,9 +2335,9 @@ part number 2062-2P from STA</description>
 <instance part="GND3" gate="1" x="-20.32" y="139.7" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-17.78" y="137.16" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IC2" gate="G$1" x="-137.16" y="30.48" smashed="yes" rot="R180">
-<attribute name="NAME" x="-158.75" y="22.86" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="-158.75" y="25.4" size="1.778" layer="96" rot="R180" align="center-left"/>
+<instance part="IC2" gate="G$1" x="-139.7" y="22.86" smashed="yes" rot="R180">
+<attribute name="NAME" x="-161.29" y="15.24" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="-161.29" y="17.78" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 <instance part="GND5" gate="1" x="-154.94" y="81.28" smashed="yes" rot="R180">
 <attribute name="VALUE" x="-152.4" y="83.82" size="1.778" layer="96" rot="R180"/>
@@ -2346,14 +2346,14 @@ part number 2062-2P from STA</description>
 <attribute name="VALUE" x="-167.64" y="68.834" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="-167.64" y="79.248" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="GND6" gate="1" x="-129.54" y="33.02" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-127" y="30.48" size="1.778" layer="96" rot="R90"/>
+<instance part="GND6" gate="1" x="-132.08" y="25.4" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-129.54" y="22.86" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="P+1" gate="VCC" x="-25.4" y="134.62" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-27.94" y="137.16" size="1.778" layer="96"/>
 </instance>
-<instance part="P+2" gate="VCC" x="-167.64" y="30.48" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-165.1" y="27.94" size="1.778" layer="96" rot="R180"/>
+<instance part="P+2" gate="VCC" x="-170.18" y="22.86" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-167.64" y="20.32" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND7" gate="1" x="-73.66" y="134.62" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-76.2" y="137.16" size="1.778" layer="96" rot="R270"/>
@@ -2374,19 +2374,19 @@ part number 2062-2P from STA</description>
 <attribute name="VALUE" x="-106.68" y="64.77" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R7" gate="G$1" x="-127" y="45.72" smashed="yes" rot="R180">
-<attribute name="NAME" x="-135.89" y="49.53" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="-140.97" y="41.91" size="1.778" layer="96" rot="R180" align="center-left"/>
+<attribute name="NAME" x="-128.27" y="39.37" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="-128.27" y="41.91" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 <instance part="R13" gate="G$1" x="-127" y="58.42" smashed="yes" rot="R180">
-<attribute name="NAME" x="-135.89" y="54.61" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="-133.35" y="62.23" size="1.778" layer="96" rot="R180" align="center-left"/>
+<attribute name="NAME" x="-128.27" y="64.77" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="-128.27" y="62.23" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 <instance part="GND4" gate="1" x="-99.06" y="50.8" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-96.52" y="48.26" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R14" gate="G$1" x="-142.24" y="73.66" smashed="yes">
 <attribute name="NAME" x="-135.89" y="77.47" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="-138.43" y="80.01" size="1.778" layer="96" align="center-left"/>
+<attribute name="VALUE" x="-135.89" y="80.01" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="J1" gate="G$1" x="-71.12" y="78.74" smashed="yes">
 <attribute name="NAME" x="-64.77" y="86.36" size="1.778" layer="95" align="center-left"/>
@@ -2417,7 +2417,7 @@ part number 2062-2P from STA</description>
 </instance>
 <instance part="R3" gate="G$1" x="0" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="3.81" y="82.55" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="8.89" y="77.47" size="1.778" layer="96" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="6.35" y="80.01" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 <instance part="R4" gate="G$1" x="0" y="50.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="3.81" y="41.91" size="1.778" layer="95" align="center-left"/>
@@ -2545,7 +2545,7 @@ part number 2062-2P from STA</description>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="IC2" gate="G$1" pin="GND"/>
-<wire x1="-132.08" y1="33.02" x2="-137.16" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="25.4" x2="-139.7" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -2614,7 +2614,7 @@ part number 2062-2P from STA</description>
 <segment>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
 <pinref part="IC2" gate="G$1" pin="VS"/>
-<wire x1="-162.56" y1="30.48" x2="-165.1" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-165.1" y1="22.86" x2="-167.64" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="ARDUINOMICRO" gate="G$1" pin="+5V"/>
@@ -2665,8 +2665,8 @@ part number 2062-2P from STA</description>
 <net name="IRREC" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="OUT"/>
-<wire x1="-137.16" y1="30.48" x2="-119.38" y2="30.48" width="0.1524" layer="91"/>
-<label x="-119.38" y="30.48" size="1.778" layer="95" xref="yes"/>
+<wire x1="-139.7" y1="22.86" x2="-121.92" y2="22.86" width="0.1524" layer="91"/>
+<label x="-121.92" y="22.86" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="ARDUINOMICRO" gate="G$1" pin="13(PWM)"/>
