@@ -82,7 +82,7 @@
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
@@ -145,7 +145,7 @@
 <board>
 <plain>
 <text x="50.038" y="21.717" size="1.397" layer="21" rot="R90">Ch2</text>
-<text x="18.415" y="20.955" size="1.397" layer="21" rot="R180">Ch1</text>
+<text x="17.145" y="20.955" size="1.397" layer="21" rot="R180">Ch1</text>
 <text x="104.14" y="3.048" size="1.016" layer="25">https://github.com/txoof/audioSensor</text>
 <wire x1="0" y1="-1.27" x2="0" y2="25.4" width="0.000253125" layer="20"/>
 <wire x1="0" y1="25.4" x2="130.81" y2="25.4" width="0.000253125" layer="20"/>
@@ -154,8 +154,8 @@
 <hole x="128.778" y="23.114" drill="3.2"/>
 <hole x="2.54" y="22.86" drill="3.2"/>
 <hole x="2.54" y="1.27" drill="3.2"/>
-<text x="109.22" y="22.86" size="1.778" layer="112">-</text>
-<text x="113.03" y="22.86" size="1.778" layer="112">+</text>
+<text x="109.982" y="21.844" size="1.778" layer="21">-</text>
+<text x="112.395" y="21.59" size="1.778" layer="21">+</text>
 </plain>
 <libraries>
 <library name="Samac Populated">
@@ -662,7 +662,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="A000053" x="144.78" y="-22.86" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="782-A000053" x="144.78" y="-22.86" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=782-A000053" x="144.78" y="-22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="120.65" y="13.97" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="113.03" y="5.08" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="RS_PART_NUMBER" value="7717667" x="144.78" y="-22.86" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7717667" x="144.78" y="-22.86" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="88.9" y="7.62" size="1.27" layer="27" align="center"/>
@@ -676,13 +676,13 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TSOP38238" x="85.09" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="782-TSOP38238" x="85.09" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=782-TSOP38238" x="85.09" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="97.544" y="21.955" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="98.695" y="23.884" size="1.27" layer="25" align="center"/>
 <attribute name="RS_PART_NUMBER" value="8651883" x="85.09" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8651883" x="85.09" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="103.235" y="23.106" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="IR_LED" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02_LOCK" package3d_urn="urn:adsk.eagle:package:38045/1" value="IR LED connection" x="113.03" y="20.32" smashed="yes" rot="R180">
-<attribute name="NAME" x="113.03" y="22.733" size="0.8128" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="113.03" y="24.003" size="0.8128" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="114.3" y="22.352" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="R14" library="Samac Populated" package="RESC3216X60N" value="100" x="118.11" y="20.32" smashed="yes">
@@ -698,7 +698,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="118.11" y="20.32" size="1.27" layer="27" align="center"/>
 </element>
 <element name="DEBUG" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02_LOCK" package3d_urn="urn:adsk.eagle:package:38045/1" value="Debug Jumper" x="125.73" y="20.32" smashed="yes" rot="R180">
-<attribute name="NAME" x="121.92" y="21.717" size="0.8128" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="121.92" y="22.987" size="0.8128" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="127" y="22.352" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="LED1" library="Samac Populated" package="LTSTC930KRKT" value="LTST-C930KRKT" x="7.62" y="21.59" smashed="yes">
@@ -708,7 +708,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LTST-C930KRKT" x="7.62" y="21.59" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="859-LTST-C930KRKT" x="7.62" y="21.59" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=859-LTST-C930KRKT" x="7.62" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.35" y="24.13" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="2.54" y="20.32" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="RS_PART_NUMBER" value="1689768" x="7.62" y="21.59" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1689768" x="7.62" y="21.59" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="7.62" y="21.59" size="1.27" layer="27" align="center"/>
@@ -720,7 +720,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="LTST-C930KRKT" x="45.72" y="21.59" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="859-LTST-C930KRKT" x="45.72" y="21.59" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=859-LTST-C930KRKT" x="45.72" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="44.45" y="24.13" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="40.64" y="21.59" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="RS_PART_NUMBER" value="1689768" x="45.72" y="21.59" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1689768" x="45.72" y="21.59" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="45.72" y="21.59" size="1.27" layer="27" align="center"/>
@@ -748,7 +748,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="111.76" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="111.76" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="111.76" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="111.76" y="8.89" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="114.3" y="12.7" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="111.76" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="111.76" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="111.76" y="12.7" size="1.27" layer="27" rot="R90" align="center"/>
@@ -778,7 +778,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TAJB226M010RNJ" x="8.89" y="17.78" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="581-TAJB226M010R" x="8.89" y="17.78" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-TAJB226M010R" x="8.89" y="17.78" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="19.05" y="17.78" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="17.78" y="17.78" size="1.27" layer="25" align="center"/>
 <attribute name="RS_PART_NUMBER" value="1354085" x="8.89" y="17.78" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1354085" x="8.89" y="17.78" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="13.97" y="17.78" size="1.27" layer="27" align="center"/>
@@ -790,7 +790,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="2N3904" x="7.62" y="20.32" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="610-2N3904" x="7.62" y="20.32" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=610-2N3904" x="7.62" y="20.32" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="12.295309375" y="20.48816875" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="3.405309375" y="14.13816875" size="1.27" layer="25" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="7.62" y="20.32" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="7.62" y="20.32" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="7.215309375" y="16.67816875" size="1.27" layer="27" align="center"/>
@@ -804,7 +804,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-8GEYJ102V" x="100.33" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="667-ERJ-8GEYJ102V" x="100.33" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERJ-8GEYJ102V" x="100.33" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="100.33" y="11.43" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="101.6" y="11.43" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="100.33" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="100.33" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="101.6" y="13.97" size="1.27" layer="27" rot="R180" align="center"/>
@@ -858,7 +858,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TAJB226M010RNJ" x="8.89" y="12.7" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="581-TAJB226M010R" x="8.89" y="12.7" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-TAJB226M010R" x="8.89" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="19.05" y="12.7" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="17.78" y="12.7" size="1.27" layer="25" align="center"/>
 <attribute name="RS_PART_NUMBER" value="1354085" x="8.89" y="12.7" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1354085" x="8.89" y="12.7" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="13.97" y="12.7" size="1.27" layer="27" align="center"/>
@@ -877,7 +877,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="85.09" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="85.09" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="85.09" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="82.55" y="12.7" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="NAME" x="85.09" y="8.89" size="1.27" layer="25" rot="R90" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="85.09" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="85.09" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="85.09" y="12.7" size="1.27" layer="27" rot="R90" align="center"/>
@@ -891,7 +891,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="85.09" y="22.86" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="85.09" y="22.86" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="85.09" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="83.82" y="25.4" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="87.63" y="24.13" size="1.27" layer="25" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="85.09" y="22.86" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="85.09" y="22.86" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="83.82" y="22.86" size="1.27" layer="27" align="center"/>
@@ -921,7 +921,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TAJB226M010RNJ" x="34.29" y="43.18" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="581-TAJB226M010R" x="34.29" y="43.18" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-TAJB226M010R" x="34.29" y="43.18" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="58.42" y="21.59" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="57.15" y="20.32" size="1.27" layer="25" align="center"/>
 <attribute name="RS_PART_NUMBER" value="1354085" x="34.29" y="43.18" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1354085" x="34.29" y="43.18" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="53.34" y="21.59" size="1.27" layer="27" align="center"/>
@@ -1001,13 +1001,13 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="TAJB226M010RNJ" x="13.97" y="15.24" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="581-TAJB226M010R" x="13.97" y="15.24" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-TAJB226M010R" x="13.97" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="58.42" y="12.7" size="1.27" layer="25" align="center"/>
+<attribute name="NAME" x="57.15" y="11.43" size="1.27" layer="25" align="center"/>
 <attribute name="RS_PART_NUMBER" value="1354085" x="13.97" y="15.24" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1354085" x="13.97" y="15.24" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="53.34" y="12.7" size="1.27" layer="27" align="center"/>
 </element>
 <element name="C6" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="CAP-PTH-2.54" package3d_urn="urn:adsk.eagle:package:37435/1" value="1uF" x="90.17" y="22.86" smashed="yes">
-<attribute name="NAME" x="93.98" y="21.336" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="NAME" x="92.71" y="23.876" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-09128" x="45.72" y="0" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="90.17" y="21.844" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
@@ -1034,7 +1034,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="135.89" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="135.89" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="135.89" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="95.25" y="20.32" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="NAME" x="93.98" y="20.32" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="135.89" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="135.89" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="90.17" y="20.32" size="1.27" layer="27" rot="R180" align="center"/>
