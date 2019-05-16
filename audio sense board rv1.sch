@@ -2200,11 +2200,11 @@ part number 2062-2P from STA</description>
 <wire x1="27" y1="0" x2="27" y2="-22.5" width="0.127" layer="51"/>
 <wire x1="27" y1="-22.5" x2="0" y2="-22.5" width="0.127" layer="51"/>
 <wire x1="0" y1="-22.5" x2="0" y2="0" width="0.127" layer="51"/>
-<pad name="1" x="23.5" y="-3.5" drill="0.7" shape="square"/>
-<pad name="2" x="3.5" y="-3.5" drill="0.7"/>
-<pad name="3" x="23.5" y="-11" drill="0.7"/>
-<pad name="4" x="3.5" y="-11" drill="0.7"/>
-<circle x="23.5" y="-3.5" radius="0.763215625" width="0.127" layer="21"/>
+<pad name="1" x="23.5" y="-3.5" drill="0.7" diameter="1.4224" shape="square"/>
+<pad name="2" x="3.5" y="-3.5" drill="0.7" diameter="1.4224"/>
+<pad name="3" x="23.5" y="-11" drill="0.7" diameter="1.27"/>
+<pad name="4" x="3.5" y="-11" drill="0.7" diameter="1.27"/>
+<circle x="23.5" y="-3.5" radius="0.763215625" width="0.254" layer="21"/>
 <wire x1="0" y1="-22.5" x2="0" y2="0" width="0.127" layer="21"/>
 <wire x1="27" y1="0" x2="27" y2="-22.5" width="0.127" layer="21"/>
 <text x="2.35" y="0.37" size="1.4224" layer="27" ratio="25">&gt;NAME</text>
@@ -2581,6 +2581,7 @@ part number 2062-2P from STA</description>
 <junction x="17.78" y="33.02"/>
 <pinref part="C2" gate="G$1" pin="-"/>
 <wire x1="30.48" y1="33.02" x2="30.48" y2="35.56" width="0.1524" layer="91"/>
+<label x="0" y="33.02" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
@@ -2603,6 +2604,7 @@ part number 2062-2P from STA</description>
 <junction x="17.78" y="-38.1"/>
 <pinref part="C5" gate="G$1" pin="-"/>
 <wire x1="30.48" y1="-38.1" x2="30.48" y2="-35.56" width="0.1524" layer="91"/>
+<label x="0" y="-38.1" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
@@ -2782,6 +2784,9 @@ part number 2062-2P from STA</description>
 <junction x="0" y="58.42"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="0" y1="50.8" x2="0" y2="58.42" width="0.1524" layer="91"/>
+<label x="0" y="50.8" size="1.778" layer="95" xref="yes"/>
+<label x="-15.24" y="58.42" size="1.778" layer="95" rot="R270" xref="yes"/>
+<label x="0" y="71.12" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -2841,6 +2846,9 @@ part number 2062-2P from STA</description>
 <junction x="0" y="-12.7"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="0" y1="-20.32" x2="0" y2="-12.7" width="0.1524" layer="91"/>
+<label x="0" y="-20.32" size="1.778" layer="95" xref="yes"/>
+<label x="0" y="0" size="1.778" layer="95" xref="yes"/>
+<label x="-15.24" y="-12.7" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$7" class="0">
