@@ -38,7 +38,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -144,18 +144,18 @@
 </layers>
 <board>
 <plain>
-<text x="50.038" y="21.717" size="1.397" layer="21" rot="R90">Ch2</text>
-<text x="10.795" y="24.765" size="1.397" layer="21" rot="R270">Ch1</text>
-<text x="104.14" y="3.048" size="1.016" layer="25">https://github.com/txoof/audioSensor</text>
-<wire x1="0" y1="-1.27" x2="0" y2="25.4" width="0.000253125" layer="20"/>
-<wire x1="0" y1="25.4" x2="130.81" y2="25.4" width="0.000253125" layer="20"/>
-<wire x1="130.81" y1="25.4" x2="130.81" y2="-1.27" width="0.000253125" layer="20"/>
-<wire x1="130.81" y1="-1.27" x2="0" y2="-1.27" width="0.000253125" layer="20"/>
-<hole x="128.778" y="23.114" drill="3.2"/>
-<hole x="2.54" y="22.86" drill="3.2"/>
-<hole x="2.54" y="1.27" drill="3.2"/>
-<text x="109.982" y="21.844" size="1.778" layer="21">-</text>
-<text x="112.395" y="21.59" size="1.778" layer="21">+</text>
+<text x="51.308" y="22.987" size="1.397" layer="21" rot="R90">Ch2</text>
+<text x="12.065" y="26.035" size="1.397" layer="21" rot="R270">Ch1</text>
+<text x="105.41" y="4.318" size="1.016" layer="25">https://github.com/txoof/audioSensor</text>
+<wire x1="0" y1="0" x2="0" y2="26.67" width="0.000253125" layer="20"/>
+<wire x1="0" y1="26.67" x2="132.08" y2="26.67" width="0.000253125" layer="20"/>
+<wire x1="132.08" y1="26.67" x2="132.08" y2="0" width="0.000253125" layer="20"/>
+<wire x1="132.08" y1="0" x2="0" y2="0" width="0.000253125" layer="20"/>
+<hole x="130.048" y="24.384" drill="3.2"/>
+<hole x="2.54" y="24.13" drill="3.2"/>
+<hole x="2.54" y="2.54" drill="3.2"/>
+<text x="111.252" y="23.114" size="1.778" layer="21">-</text>
+<text x="113.665" y="22.86" size="1.778" layer="21">+</text>
 </plain>
 <libraries>
 <library name="Samac Populated">
@@ -164,20 +164,19 @@
 <package name="CAPPM3528X210N">
 <description>&lt;b&gt;CASE B&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-1.5" y="0" dx="2.25" dy="1.75" layer="1" rot="R90"/>
-<smd name="2" x="1.5" y="0" dx="2.25" dy="1.75" layer="1" rot="R90"/>
+<smd name="1" x="-1.5" y="0" dx="2.2352" dy="1.905" layer="1" rot="R90"/>
+<smd name="2" x="1.5" y="0" dx="2.2352" dy="1.905" layer="1" rot="R90"/>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-2.625" y1="1.75" x2="2.625" y2="1.75" width="0.05" layer="51"/>
 <wire x1="2.625" y1="1.75" x2="2.625" y2="-1.75" width="0.05" layer="51"/>
 <wire x1="2.625" y1="-1.75" x2="-2.625" y2="-1.75" width="0.05" layer="51"/>
 <wire x1="-2.625" y1="-1.75" x2="-2.625" y2="1.75" width="0.05" layer="51"/>
-<wire x1="-1.75" y1="1.425" x2="1.75" y2="1.425" width="0.1" layer="51"/>
-<wire x1="1.75" y1="1.425" x2="1.75" y2="-1.425" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="2.06" x2="1.75" y2="2.06" width="0.1" layer="51"/>
+<wire x1="1.75" y1="2.06" x2="1.75" y2="-1.425" width="0.1" layer="51"/>
 <wire x1="1.75" y1="-1.425" x2="-1.75" y2="-1.425" width="0.1" layer="51"/>
-<wire x1="-1.75" y1="-1.425" x2="-1.75" y2="1.425" width="0.1" layer="51"/>
-<wire x1="-1.75" y1="0.55" x2="-0.875" y2="1.425" width="0.1" layer="51"/>
-<wire x1="1.75" y1="1.425" x2="-2.375" y2="1.425" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="-1.425" x2="-1.75" y2="2.06" width="0.1" layer="51"/>
+<wire x1="-1.75" y1="1.185" x2="-0.875" y2="2.06" width="0.1" layer="51"/>
 <wire x1="-1.75" y1="-1.425" x2="1.75" y2="-1.425" width="0.2" layer="21"/>
 </package>
 <package name="HDRV34W70P1570X254_2X17_4900X1">
@@ -327,20 +326,19 @@
 <package name="LTSTC930KRKT">
 <description>&lt;b&gt;LTST-C930KRKT_manual&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-1.55" y="0" dx="2.8" dy="1.1" layer="1" rot="R90"/>
-<smd name="2" x="1.55" y="0" dx="2.8" dy="1.1" layer="1" rot="R90"/>
+<smd name="1" x="-1.55" y="0" dx="3.81" dy="1.9304" layer="1" rot="R90"/>
+<smd name="2" x="1.55" y="0" dx="3.81" dy="1.9304" layer="1" rot="R90"/>
 <text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-2.425" y1="2" x2="2.425" y2="2" width="0.05" layer="51"/>
 <wire x1="2.425" y1="2" x2="2.425" y2="-2" width="0.05" layer="51"/>
 <wire x1="2.425" y1="-2" x2="-2.425" y2="-2" width="0.05" layer="51"/>
 <wire x1="-2.425" y1="-2" x2="-2.425" y2="2" width="0.05" layer="51"/>
-<wire x1="-1.6" y1="1.6" x2="1.6" y2="1.6" width="0.2" layer="51"/>
-<wire x1="1.6" y1="1.6" x2="1.6" y2="-1.6" width="0.2" layer="51"/>
+<wire x1="-1.6" y1="2.87" x2="1.6" y2="2.87" width="0.2" layer="51"/>
+<wire x1="1.6" y1="2.87" x2="1.6" y2="-1.6" width="0.2" layer="51"/>
 <wire x1="1.6" y1="-1.6" x2="-1.6" y2="-1.6" width="0.2" layer="51"/>
-<wire x1="-1.6" y1="-1.6" x2="-1.6" y2="1.6" width="0.2" layer="51"/>
-<wire x1="-1.6" y1="1" x2="-0.925" y2="1.6" width="0.2" layer="51"/>
-<wire x1="1.6" y1="1.6" x2="-2.175" y2="1.6" width="0.1" layer="21"/>
+<wire x1="-1.6" y1="-1.6" x2="-1.6" y2="2.87" width="0.2" layer="51"/>
+<wire x1="-1.6" y1="2.27" x2="-0.925" y2="2.87" width="0.2" layer="51"/>
 <wire x1="-1.6" y1="-1.6" x2="1.6" y2="-1.6" width="0.1" layer="21"/>
 </package>
 </packages>
@@ -655,389 +653,389 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="ARDUINOMICRO" library="Samac Populated" package="HDRV34W70P1570X254_2X17_4900X1" value="A000053" x="86.36" y="1.27" smashed="yes">
-<attribute name="DESCRIPTION" value="Arduino Micro Arduino Micro" x="144.78" y="-22.86" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="16mm" x="144.78" y="-22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Arduino" x="144.78" y="-22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="A000053" x="144.78" y="-22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="782-A000053" x="144.78" y="-22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=782-A000053" x="144.78" y="-22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="113.03" y="5.08" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="RS_PART_NUMBER" value="7717667" x="144.78" y="-22.86" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7717667" x="144.78" y="-22.86" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="88.9" y="7.62" size="1.27" layer="27" align="center"/>
+<element name="ARDUINOMICRO" library="Samac Populated" package="HDRV34W70P1570X254_2X17_4900X1" value="A000053" x="87.63" y="2.54" smashed="yes">
+<attribute name="DESCRIPTION" value="Arduino Micro Arduino Micro" x="146.05" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="16mm" x="146.05" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Arduino" x="146.05" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="A000053" x="146.05" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="782-A000053" x="146.05" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=782-A000053" x="146.05" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="114.3" y="6.35" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="7717667" x="146.05" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7717667" x="146.05" y="-21.59" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="90.17" y="8.89" size="1.27" layer="27" align="center"/>
 </element>
-<element name="IC2" library="Samac Populated" package="TSOP38238" value="TSOP38238" x="102.87" y="20.32" smashed="yes" rot="R180">
-<attribute name="ALLIED_NUMBER" value="70331872" x="85.09" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/vishay-dale-tsop38238/70331872/" x="85.09" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="IR Remote Receiver 38KHz 45m" x="85.09" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="mm" x="85.09" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" x="85.09" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TSOP38238" x="85.09" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="782-TSOP38238" x="85.09" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=782-TSOP38238" x="85.09" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="98.695" y="23.884" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="8651883" x="85.09" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8651883" x="85.09" y="67.31" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="103.235" y="23.106" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="IC2" library="Samac Populated" package="TSOP38238" value="TSOP38238" x="104.14" y="21.59" smashed="yes" rot="R180">
+<attribute name="ALLIED_NUMBER" value="70331872" x="86.36" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/vishay-dale-tsop38238/70331872/" x="86.36" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="IR Remote Receiver 38KHz 45m" x="86.36" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="mm" x="86.36" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="86.36" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TSOP38238" x="86.36" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="782-TSOP38238" x="86.36" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=782-TSOP38238" x="86.36" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="99.965" y="25.154" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8651883" x="86.36" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8651883" x="86.36" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="104.505" y="24.376" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="IR_LED" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02_LOCK" package3d_urn="urn:adsk.eagle:package:38045/1" value="IR LED connection" x="113.03" y="20.32" smashed="yes" rot="R180">
-<attribute name="NAME" x="113.03" y="24.003" size="0.8128" layer="25" font="vector" ratio="20" rot="R180"/>
-<attribute name="VALUE" x="114.3" y="22.352" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
+<element name="IR_LED" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02_LOCK" package3d_urn="urn:adsk.eagle:package:38045/1" value="IR LED connection" x="114.3" y="21.59" smashed="yes" rot="R180">
+<attribute name="NAME" x="114.3" y="25.273" size="0.8128" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="VALUE" x="115.57" y="23.622" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
-<element name="R14" library="Samac Populated" package="RESC3216X60N" value="100" x="118.11" y="20.32" smashed="yes">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 1/4Watt 100ohms 5% Commercial Use" x="168.91" y="-41.91" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.6mm" x="168.91" y="-41.91" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" x="168.91" y="-41.91" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW1206100RJNEAC" x="168.91" y="-41.91" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="71-CRCW1206100RJNEAC" x="168.91" y="-41.91" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW1206100RJNEAC" x="168.91" y="-41.91" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="118.11" y="22.86" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="168.91" y="-41.91" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="168.91" y="-41.91" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="118.11" y="20.32" size="1.27" layer="27" align="center"/>
+<element name="R14" library="Samac Populated" package="RESC3216X60N" value="100" x="119.38" y="21.59" smashed="yes">
+<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 1/4Watt 100ohms 5% Commercial Use" x="170.18" y="-40.64" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.6mm" x="170.18" y="-40.64" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="170.18" y="-40.64" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW1206100RJNEAC" x="170.18" y="-40.64" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-CRCW1206100RJNEAC" x="170.18" y="-40.64" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW1206100RJNEAC" x="170.18" y="-40.64" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="119.38" y="24.13" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="170.18" y="-40.64" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="170.18" y="-40.64" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="119.38" y="21.59" size="1.27" layer="27" align="center"/>
 </element>
-<element name="DEBUG" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02_LOCK" package3d_urn="urn:adsk.eagle:package:38045/1" value="Debug Jumper" x="125.73" y="20.32" smashed="yes" rot="R180">
-<attribute name="NAME" x="121.92" y="22.987" size="0.8128" layer="25" font="vector" ratio="20"/>
-<attribute name="VALUE" x="127" y="22.352" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
+<element name="DEBUG" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X02_LOCK" package3d_urn="urn:adsk.eagle:package:38045/1" value="Debug Jumper" x="127" y="21.59" smashed="yes" rot="R180">
+<attribute name="NAME" x="123.19" y="24.257" size="0.8128" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="128.27" y="23.622" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
-<element name="LED1" library="Samac Populated" package="LTSTC930KRKT" value="LTST-C930KRKT" x="7.62" y="21.59" smashed="yes">
-<attribute name="DESCRIPTION" value="LED, Red LTST-C930KRKT, Lite-On 631 nm 3125 (1210) SMD package" x="7.62" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="2.5mm" x="7.62" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lite-On" x="7.62" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="LTST-C930KRKT" x="7.62" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="859-LTST-C930KRKT" x="7.62" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=859-LTST-C930KRKT" x="7.62" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="2.54" y="20.32" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="RS_PART_NUMBER" value="1689768" x="7.62" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1689768" x="7.62" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="7.62" y="21.59" size="1.27" layer="27" align="center"/>
+<element name="LED1" library="Samac Populated" package="LTSTC930KRKT" value="LTST-C930KRKT" x="8.89" y="22.86" smashed="yes">
+<attribute name="DESCRIPTION" value="LED, Red LTST-C930KRKT, Lite-On 631 nm 3125 (1210) SMD package" x="8.89" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="2.5mm" x="8.89" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lite-On" x="8.89" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LTST-C930KRKT" x="8.89" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="859-LTST-C930KRKT" x="8.89" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=859-LTST-C930KRKT" x="8.89" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="3.81" y="19.05" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1689768" x="8.89" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1689768" x="8.89" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="8.89" y="22.86" size="1.27" layer="27" align="center"/>
 </element>
-<element name="LED2" library="Samac Populated" package="LTSTC930KRKT" value="LTST-C930KRKT" x="45.72" y="21.59" smashed="yes">
-<attribute name="DESCRIPTION" value="LED, Red LTST-C930KRKT, Lite-On 631 nm 3125 (1210) SMD package" x="45.72" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="2.5mm" x="45.72" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lite-On" x="45.72" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="LTST-C930KRKT" x="45.72" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="859-LTST-C930KRKT" x="45.72" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=859-LTST-C930KRKT" x="45.72" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="40.64" y="20.32" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="RS_PART_NUMBER" value="1689768" x="45.72" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1689768" x="45.72" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="45.72" y="21.59" size="1.27" layer="27" align="center"/>
+<element name="LED2" library="Samac Populated" package="LTSTC930KRKT" value="LTST-C930KRKT" x="46.99" y="22.86" smashed="yes">
+<attribute name="DESCRIPTION" value="LED, Red LTST-C930KRKT, Lite-On 631 nm 3125 (1210) SMD package" x="46.99" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="2.5mm" x="46.99" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lite-On" x="46.99" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LTST-C930KRKT" x="46.99" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="859-LTST-C930KRKT" x="46.99" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=859-LTST-C930KRKT" x="46.99" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="41.91" y="21.59" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1689768" x="46.99" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1689768" x="46.99" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="46.99" y="22.86" size="1.27" layer="27" align="center"/>
 </element>
-<element name="R7" library="Samac Populated" package="RESC3116X70N" value="100" x="107.95" y="12.7" smashed="yes" rot="R90">
-<attribute name="ALLIED_NUMBER" value="70265175" x="107.95" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" x="107.95" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" x="107.95" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="0.7mm" x="107.95" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="107.95" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="107.95" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="107.95" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="107.95" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="107.95" y="8.89" size="1.27" layer="25" rot="R270" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="107.95" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="107.95" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="107.95" y="12.7" size="1.27" layer="27" rot="R90" align="center"/>
+<element name="R7" library="Samac Populated" package="RESC3116X70N" value="100" x="109.22" y="13.97" smashed="yes" rot="R90">
+<attribute name="ALLIED_NUMBER" value="70265175" x="109.22" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" x="109.22" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" x="109.22" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.7mm" x="109.22" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="109.22" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="109.22" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="109.22" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="109.22" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="109.22" y="10.16" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="109.22" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="109.22" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="109.22" y="13.97" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="R13" library="Samac Populated" package="RESC3116X70N" value="100" x="111.76" y="12.7" smashed="yes" rot="R90">
-<attribute name="ALLIED_NUMBER" value="70265175" x="111.76" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" x="111.76" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" x="111.76" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="0.7mm" x="111.76" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="111.76" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="111.76" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="111.76" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="111.76" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="114.3" y="12.7" size="1.27" layer="25" rot="R90" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="111.76" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="111.76" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="111.76" y="12.7" size="1.27" layer="27" rot="R90" align="center"/>
+<element name="R13" library="Samac Populated" package="RESC3116X70N" value="100" x="113.03" y="13.97" smashed="yes" rot="R90">
+<attribute name="ALLIED_NUMBER" value="70265175" x="113.03" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" x="113.03" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" x="113.03" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.7mm" x="113.03" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="113.03" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="113.03" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="113.03" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="113.03" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="115.57" y="13.97" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="113.03" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="113.03" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="113.03" y="13.97" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="J1" library="Samac Populated" package="PJRAN1X1U01X" value="PJRAN1X1U01X" x="11.43" y="2.54" smashed="yes">
-<attribute name="ALLIED_NUMBER" value="70931429" x="-3.81" y="25.4" size="1.778" layer="27" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/switchcraft-pjran1x1u01x/70931429/" x="-3.81" y="25.4" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="SWITCHCRAFT/CONXALL - PJRAN1X1U01X - CONNECTOR, RCA/PHONO, JACK, 1 POSITION" x="-3.81" y="25.4" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="13mm" x="-3.81" y="25.4" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Switchcraft" x="-3.81" y="25.4" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PJRAN1X1U01X" x="-3.81" y="25.4" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="502-PJRAN1X1U01X" x="-3.81" y="25.4" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=502-PJRAN1X1U01X" x="-3.81" y="25.4" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="7.62" y="1.33" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="-3.81" y="25.4" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="-3.81" y="25.4" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="11.43" y="-1.21" size="1.27" layer="27" align="center"/>
+<element name="J1" library="Samac Populated" package="PJRAN1X1U01X" value="PJRAN1X1U01X" x="12.7" y="3.81" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70931429" x="-2.54" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/switchcraft-pjran1x1u01x/70931429/" x="-2.54" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="SWITCHCRAFT/CONXALL - PJRAN1X1U01X - CONNECTOR, RCA/PHONO, JACK, 1 POSITION" x="-2.54" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="13mm" x="-2.54" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Switchcraft" x="-2.54" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PJRAN1X1U01X" x="-2.54" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="502-PJRAN1X1U01X" x="-2.54" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=502-PJRAN1X1U01X" x="-2.54" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="8.89" y="2.6" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="-2.54" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="-2.54" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="12.7" y="0.06" size="1.27" layer="27" align="center"/>
 </element>
-<element name="L1" library="My Library" package="IT237" value="IT237" x="19.05" y="-2.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="18.68" y="-0.19" size="1.4224" layer="27" ratio="25" rot="R90"/>
-<attribute name="VALUE" x="40.4" y="-0.44" size="1.4224" layer="27" ratio="25" rot="R90"/>
+<element name="L1" library="My Library" package="IT237" value="IT237" x="20.32" y="-1.27" smashed="yes" rot="R90">
+<attribute name="NAME" x="19.95" y="1.08" size="1.4224" layer="27" ratio="25" rot="R90"/>
+<attribute name="VALUE" x="41.67" y="0.83" size="1.4224" layer="27" ratio="25" rot="R90"/>
 </element>
-<element name="C1" library="Samac Populated" package="CAPPM3528X210N" value="TAJB226M010RNJ" x="15.24" y="17.78" smashed="yes">
-<attribute name="DESCRIPTION" value="Tantalum Capacitors - Solid SMD 10volts 22uF 20%" x="10.16" y="17.78" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="2.1mm" x="10.16" y="17.78" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" x="10.16" y="17.78" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TAJB226M010RNJ" x="10.16" y="17.78" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="581-TAJB226M010R" x="10.16" y="17.78" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-TAJB226M010R" x="10.16" y="17.78" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="19.05" y="17.78" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="1354085" x="10.16" y="17.78" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1354085" x="10.16" y="17.78" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="15.24" y="17.78" size="1.27" layer="27" align="center"/>
+<element name="C1" library="Samac Populated" package="CAPPM3528X210N" value="TAJB226M010RNJ" x="16.51" y="19.05" smashed="yes">
+<attribute name="DESCRIPTION" value="Tantalum Capacitors - Solid SMD 10volts 22uF 20%" x="11.43" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="2.1mm" x="11.43" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="AVX" x="11.43" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TAJB226M010RNJ" x="11.43" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="581-TAJB226M010R" x="11.43" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-TAJB226M010R" x="11.43" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="20.32" y="19.05" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1354085" x="11.43" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1354085" x="11.43" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="16.51" y="19.05" size="1.27" layer="27" align="center"/>
 </element>
-<element name="Q1" library="Samac Populated" package="CS_TO-92" value="2N3904" x="7.62" y="19.05" smashed="yes">
-<attribute name="DESCRIPTION" value="Bipolar Transistors - BJT NPN Gen Pur SS" x="7.62" y="20.32" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="7.62" y="20.32" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Central Semiconductor" x="7.62" y="20.32" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="2N3904" x="7.62" y="20.32" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="610-2N3904" x="7.62" y="20.32" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=610-2N3904" x="7.62" y="20.32" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="11.26183125" y="16.105309375" size="1.27" layer="25" rot="R90" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="7.62" y="20.32" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="7.62" y="20.32" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="7.215309375" y="16.67816875" size="1.27" layer="27" align="center"/>
+<element name="Q1" library="Samac Populated" package="CS_TO-92" value="2N3904" x="8.89" y="20.32" smashed="yes">
+<attribute name="DESCRIPTION" value="Bipolar Transistors - BJT NPN Gen Pur SS" x="8.89" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="8.89" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Central Semiconductor" x="8.89" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="2N3904" x="8.89" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="610-2N3904" x="8.89" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=610-2N3904" x="8.89" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="12.53183125" y="17.375309375" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="8.89" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="8.89" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="8.485309375" y="17.94816875" size="1.27" layer="27" align="center"/>
 </element>
-<element name="R1" library="Samac Populated" package="RESC3116X70N" value="1K" x="101.6" y="13.97" smashed="yes" rot="R180">
-<attribute name="ALLIED_NUMBER" value="70266199" x="100.33" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj102v/70266199/" x="100.33" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 1206 1Kohms 5% Tol AEC-Q200" x="100.33" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.7mm" x="100.33" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="100.33" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-8GEYJ102V" x="100.33" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERJ-8GEYJ102V" x="100.33" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERJ-8GEYJ102V" x="100.33" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="101.6" y="11.43" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="100.33" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="100.33" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="101.6" y="13.97" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="R1" library="Samac Populated" package="RESC3116X70N" value="1K" x="102.87" y="15.24" smashed="yes" rot="R180">
+<attribute name="ALLIED_NUMBER" value="70266199" x="101.6" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj102v/70266199/" x="101.6" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 1206 1Kohms 5% Tol AEC-Q200" x="101.6" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="0.7mm" x="101.6" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="101.6" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-8GEYJ102V" x="101.6" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERJ-8GEYJ102V" x="101.6" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERJ-8GEYJ102V" x="101.6" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="102.87" y="12.7" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="101.6" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="101.6" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="102.87" y="15.24" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="R2" library="Samac Populated" package="RESC3116X70N" value="100" x="7.62" y="12.7" smashed="yes" rot="R180">
-<attribute name="ALLIED_NUMBER" value="70265175" x="6.35" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" x="6.35" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" x="6.35" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.7mm" x="6.35" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="6.35" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="6.35" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="6.35" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="6.35" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="3.81" y="12.7" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="6.35" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="6.35" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="7.62" y="12.7" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="R2" library="Samac Populated" package="RESC3116X70N" value="100" x="8.89" y="13.97" smashed="yes" rot="R180">
+<attribute name="ALLIED_NUMBER" value="70265175" x="7.62" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" x="7.62" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" x="7.62" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="0.7mm" x="7.62" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="7.62" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="7.62" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="7.62" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="7.62" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="5.08" y="13.97" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="7.62" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="7.62" y="13.97" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="8.89" y="13.97" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="R3" library="Samac Populated" package="RESC3116X70N" value="39K" x="96.52" y="13.97" smashed="yes">
-<attribute name="ALLIED_NUMBER" value="70265175" x="97.79" y="13.97" size="1.778" layer="27" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" x="97.79" y="13.97" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" x="97.79" y="13.97" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.7mm" x="97.79" y="13.97" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="97.79" y="13.97" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="97.79" y="13.97" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="97.79" y="13.97" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="97.79" y="13.97" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="96.52" y="11.43" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="97.79" y="13.97" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="97.79" y="13.97" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="96.52" y="13.97" size="1.27" layer="27" align="center"/>
+<element name="R3" library="Samac Populated" package="RESC3116X70N" value="39K" x="97.79" y="15.24" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70265175" x="99.06" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" x="99.06" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" x="99.06" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.7mm" x="99.06" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="99.06" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="99.06" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="99.06" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="99.06" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="97.79" y="12.7" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="99.06" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="99.06" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="97.79" y="15.24" size="1.27" layer="27" align="center"/>
 </element>
-<element name="R4" library="Samac Populated" package="RESC3116X70N" value="10K" x="15.24" y="22.86" smashed="yes">
-<attribute name="ALLIED_NUMBER" value="70265175" x="16.51" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" x="16.51" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" x="16.51" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.7mm" x="16.51" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="16.51" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="16.51" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="16.51" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="16.51" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="19.05" y="22.86" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="16.51" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="16.51" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="15.24" y="22.86" size="1.27" layer="27" align="center"/>
+<element name="R4" library="Samac Populated" package="RESC3116X70N" value="10K" x="16.51" y="24.13" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70265175" x="17.78" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" x="17.78" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" x="17.78" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.7mm" x="17.78" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="17.78" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="17.78" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="17.78" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="17.78" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="20.32" y="24.13" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="17.78" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="17.78" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="16.51" y="24.13" size="1.27" layer="27" align="center"/>
 </element>
-<element name="C2" library="Samac Populated" package="CAPPM3528X210N" value="TAJB226M010RNJ" x="15.24" y="12.7" smashed="yes">
-<attribute name="DESCRIPTION" value="Tantalum Capacitors - Solid SMD 10volts 22uF 20%" x="10.16" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="2.1mm" x="10.16" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" x="10.16" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TAJB226M010RNJ" x="10.16" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="581-TAJB226M010R" x="10.16" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-TAJB226M010R" x="10.16" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="19.05" y="12.7" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="1354085" x="10.16" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1354085" x="10.16" y="12.7" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="15.24" y="12.7" size="1.27" layer="27" align="center"/>
+<element name="C2" library="Samac Populated" package="CAPPM3528X210N" value="TAJB226M010RNJ" x="16.51" y="13.97" smashed="yes">
+<attribute name="DESCRIPTION" value="Tantalum Capacitors - Solid SMD 10volts 22uF 20%" x="11.43" y="13.97" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="2.1mm" x="11.43" y="13.97" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="AVX" x="11.43" y="13.97" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TAJB226M010RNJ" x="11.43" y="13.97" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="581-TAJB226M010R" x="11.43" y="13.97" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-TAJB226M010R" x="11.43" y="13.97" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="20.32" y="13.97" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1354085" x="11.43" y="13.97" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1354085" x="11.43" y="13.97" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="16.51" y="13.97" size="1.27" layer="27" align="center"/>
 </element>
-<element name="C3" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="CAP-PTH-2.54" package3d_urn="urn:adsk.eagle:package:37435/1" value="1uF" x="83.82" y="20.32" smashed="yes" rot="R180">
-<attribute name="NAME" x="86.36" y="19.304" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-09128" x="83.82" y="20.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="83.82" y="21.336" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<element name="C3" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="CAP-PTH-2.54" package3d_urn="urn:adsk.eagle:package:37435/1" value="1uF" x="85.09" y="21.59" smashed="yes" rot="R180">
+<attribute name="NAME" x="87.63" y="20.574" size="1.4224" layer="25" font="vector" ratio="10" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-09128" x="85.09" y="21.59" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="85.09" y="22.606" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="R5" library="Samac Populated" package="RESC3116X70N" value="10K" x="85.09" y="12.7" smashed="yes" rot="R90">
-<attribute name="ALLIED_NUMBER" value="70265175" x="85.09" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" x="85.09" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" x="85.09" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="0.7mm" x="85.09" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="85.09" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="85.09" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="85.09" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="85.09" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="85.09" y="8.89" size="1.27" layer="25" rot="R90" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="85.09" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="85.09" y="13.97" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="85.09" y="12.7" size="1.27" layer="27" rot="R90" align="center"/>
+<element name="R5" library="Samac Populated" package="RESC3116X70N" value="10K" x="86.36" y="13.97" smashed="yes" rot="R90">
+<attribute name="ALLIED_NUMBER" value="70265175" x="86.36" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" x="86.36" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" x="86.36" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.7mm" x="86.36" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="86.36" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="86.36" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="86.36" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="86.36" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="86.36" y="10.16" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="86.36" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="86.36" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="86.36" y="13.97" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="R6" library="Samac Populated" package="RESC3116X70N" value="10K" x="83.82" y="22.86" smashed="yes">
-<attribute name="ALLIED_NUMBER" value="70265175" x="85.09" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" x="85.09" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" x="85.09" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.7mm" x="85.09" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="85.09" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="85.09" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="85.09" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="85.09" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="87.63" y="24.13" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="85.09" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="85.09" y="22.86" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="83.82" y="22.86" size="1.27" layer="27" align="center"/>
+<element name="R6" library="Samac Populated" package="RESC3116X70N" value="10K" x="85.09" y="24.13" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70265175" x="86.36" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" x="86.36" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" x="86.36" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.7mm" x="86.36" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="86.36" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="86.36" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="86.36" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="86.36" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="88.9" y="25.4" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="86.36" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="86.36" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="85.09" y="24.13" size="1.27" layer="27" align="center"/>
 </element>
-<element name="J2" library="Samac Populated" package="PJRAN1X1U01X" value="PJRAN1X1U01X" x="49.53" y="2.54" smashed="yes">
-<attribute name="ALLIED_NUMBER" value="70931429" x="34.29" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/switchcraft-pjran1x1u01x/70931429/" x="34.29" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="SWITCHCRAFT/CONXALL - PJRAN1X1U01X - CONNECTOR, RCA/PHONO, JACK, 1 POSITION" x="34.29" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="13mm" x="34.29" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Switchcraft" x="34.29" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PJRAN1X1U01X" x="34.29" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="502-PJRAN1X1U01X" x="34.29" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=502-PJRAN1X1U01X" x="34.29" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="45.72" y="1.33" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="34.29" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="34.29" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="49.53" y="-1.21" size="1.27" layer="27" align="center"/>
+<element name="J2" library="Samac Populated" package="PJRAN1X1U01X" value="PJRAN1X1U01X" x="50.8" y="3.81" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70931429" x="35.56" y="52.07" size="1.778" layer="27" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/switchcraft-pjran1x1u01x/70931429/" x="35.56" y="52.07" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="SWITCHCRAFT/CONXALL - PJRAN1X1U01X - CONNECTOR, RCA/PHONO, JACK, 1 POSITION" x="35.56" y="52.07" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="13mm" x="35.56" y="52.07" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Switchcraft" x="35.56" y="52.07" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PJRAN1X1U01X" x="35.56" y="52.07" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="502-PJRAN1X1U01X" x="35.56" y="52.07" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=502-PJRAN1X1U01X" x="35.56" y="52.07" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="46.99" y="2.6" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="35.56" y="52.07" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="35.56" y="52.07" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="50.8" y="0.06" size="1.27" layer="27" align="center"/>
 </element>
-<element name="L2" library="My Library" package="IT237" value="IT237" x="57.15" y="-2.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="56.78" y="-0.19" size="1.4224" layer="27" ratio="25" rot="R90"/>
-<attribute name="VALUE" x="78.5" y="-0.44" size="1.4224" layer="27" ratio="25" rot="R90"/>
+<element name="L2" library="My Library" package="IT237" value="IT237" x="58.42" y="-1.27" smashed="yes" rot="R90">
+<attribute name="NAME" x="58.05" y="1.08" size="1.4224" layer="27" ratio="25" rot="R90"/>
+<attribute name="VALUE" x="79.77" y="0.83" size="1.4224" layer="27" ratio="25" rot="R90"/>
 </element>
-<element name="C4" library="Samac Populated" package="CAPPM3528X210N" value="TAJB226M010RNJ" x="53.34" y="21.59" smashed="yes">
-<attribute name="DESCRIPTION" value="Tantalum Capacitors - Solid SMD 10volts 22uF 20%" x="34.29" y="43.18" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="2.1mm" x="34.29" y="43.18" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" x="34.29" y="43.18" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TAJB226M010RNJ" x="34.29" y="43.18" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="581-TAJB226M010R" x="34.29" y="43.18" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-TAJB226M010R" x="34.29" y="43.18" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="57.15" y="21.59" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="1354085" x="34.29" y="43.18" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1354085" x="34.29" y="43.18" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="53.34" y="21.59" size="1.27" layer="27" align="center"/>
+<element name="C4" library="Samac Populated" package="CAPPM3528X210N" value="TAJB226M010RNJ" x="54.61" y="22.86" smashed="yes">
+<attribute name="DESCRIPTION" value="Tantalum Capacitors - Solid SMD 10volts 22uF 20%" x="35.56" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="2.1mm" x="35.56" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="AVX" x="35.56" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TAJB226M010RNJ" x="35.56" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="581-TAJB226M010R" x="35.56" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-TAJB226M010R" x="35.56" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="58.42" y="22.86" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1354085" x="35.56" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1354085" x="35.56" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="54.61" y="22.86" size="1.27" layer="27" align="center"/>
 </element>
-<element name="Q2" library="Samac Populated" package="CS_TO-92" value="2N3904" x="45.72" y="19.05" smashed="yes">
-<attribute name="DESCRIPTION" value="Bipolar Transistors - BJT NPN Gen Pur SS" x="12.7" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="12.7" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Central Semiconductor" x="12.7" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="2N3904" x="12.7" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="610-2N3904" x="12.7" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=610-2N3904" x="12.7" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="49.36183125" y="16.105309375" size="1.27" layer="25" rot="R90" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="12.7" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="12.7" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="45.315309375" y="16.67816875" size="1.27" layer="27" align="center"/>
+<element name="Q2" library="Samac Populated" package="CS_TO-92" value="2N3904" x="46.99" y="20.32" smashed="yes">
+<attribute name="DESCRIPTION" value="Bipolar Transistors - BJT NPN Gen Pur SS" x="13.97" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="13.97" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Central Semiconductor" x="13.97" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="2N3904" x="13.97" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="610-2N3904" x="13.97" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=610-2N3904" x="13.97" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="50.63183125" y="17.375309375" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="13.97" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="13.97" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="46.585309375" y="17.94816875" size="1.27" layer="27" align="center"/>
 </element>
-<element name="R8" library="Samac Populated" package="RESC3116X70N" value="1K" x="96.52" y="5.08" smashed="yes" rot="R180">
-<attribute name="ALLIED_NUMBER" value="70266199" x="113.03" y="-12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj102v/70266199/" x="113.03" y="-12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 1206 1Kohms 5% Tol AEC-Q200" x="113.03" y="-12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.7mm" x="113.03" y="-12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="113.03" y="-12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-8GEYJ102V" x="113.03" y="-12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERJ-8GEYJ102V" x="113.03" y="-12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERJ-8GEYJ102V" x="113.03" y="-12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="96.52" y="7.62" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="113.03" y="-12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="113.03" y="-12.7" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="96.52" y="5.08" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="R8" library="Samac Populated" package="RESC3116X70N" value="1K" x="97.79" y="6.35" smashed="yes" rot="R180">
+<attribute name="ALLIED_NUMBER" value="70266199" x="114.3" y="-11.43" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj102v/70266199/" x="114.3" y="-11.43" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 1206 1Kohms 5% Tol AEC-Q200" x="114.3" y="-11.43" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="0.7mm" x="114.3" y="-11.43" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="114.3" y="-11.43" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ-8GEYJ102V" x="114.3" y="-11.43" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERJ-8GEYJ102V" x="114.3" y="-11.43" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERJ-8GEYJ102V" x="114.3" y="-11.43" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="97.79" y="8.89" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="114.3" y="-11.43" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="114.3" y="-11.43" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="97.79" y="6.35" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="R9" library="Samac Populated" package="RESC3116X70N" value="100" x="45.72" y="12.7" smashed="yes" rot="R180">
-<attribute name="ALLIED_NUMBER" value="70265175" x="67.31" y="-2.54" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" x="67.31" y="-2.54" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" x="67.31" y="-2.54" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.7mm" x="67.31" y="-2.54" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="67.31" y="-2.54" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="67.31" y="-2.54" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="67.31" y="-2.54" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="67.31" y="-2.54" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="41.91" y="12.7" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="67.31" y="-2.54" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="67.31" y="-2.54" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="45.72" y="12.7" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="R9" library="Samac Populated" package="RESC3116X70N" value="100" x="46.99" y="13.97" smashed="yes" rot="R180">
+<attribute name="ALLIED_NUMBER" value="70265175" x="68.58" y="-1.27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" x="68.58" y="-1.27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" x="68.58" y="-1.27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="0.7mm" x="68.58" y="-1.27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="68.58" y="-1.27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="68.58" y="-1.27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="68.58" y="-1.27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="68.58" y="-1.27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="43.18" y="13.97" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="68.58" y="-1.27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="68.58" y="-1.27" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="46.99" y="13.97" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="R10" library="Samac Populated" package="RESC3116X70N" value="39K" x="101.6" y="5.08" smashed="yes" rot="R180">
-<attribute name="ALLIED_NUMBER" value="70265175" x="128.27" y="-7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" x="128.27" y="-7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" x="128.27" y="-7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.7mm" x="128.27" y="-7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="128.27" y="-7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="128.27" y="-7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="128.27" y="-7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="128.27" y="-7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="101.6" y="7.62" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="128.27" y="-7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="128.27" y="-7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="101.6" y="5.08" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="R10" library="Samac Populated" package="RESC3116X70N" value="39K" x="102.87" y="6.35" smashed="yes" rot="R180">
+<attribute name="ALLIED_NUMBER" value="70265175" x="129.54" y="-6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" x="129.54" y="-6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" x="129.54" y="-6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="0.7mm" x="129.54" y="-6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="129.54" y="-6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="129.54" y="-6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="129.54" y="-6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="129.54" y="-6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="102.87" y="8.89" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="129.54" y="-6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="129.54" y="-6.35" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="102.87" y="6.35" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="R11" library="Samac Populated" package="RESC3116X70N" value="10K" x="53.34" y="16.51" smashed="yes">
-<attribute name="ALLIED_NUMBER" value="70265175" x="21.59" y="26.67" size="1.778" layer="27" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" x="21.59" y="26.67" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" x="21.59" y="26.67" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.7mm" x="21.59" y="26.67" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="21.59" y="26.67" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="21.59" y="26.67" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="21.59" y="26.67" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="21.59" y="26.67" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="57.15" y="16.51" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="21.59" y="26.67" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="21.59" y="26.67" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="53.34" y="16.51" size="1.27" layer="27" align="center"/>
+<element name="R11" library="Samac Populated" package="RESC3116X70N" value="10K" x="54.61" y="17.78" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70265175" x="22.86" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" x="22.86" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" x="22.86" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.7mm" x="22.86" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="22.86" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="22.86" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="22.86" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="22.86" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="58.42" y="17.78" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="22.86" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="22.86" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="54.61" y="17.78" size="1.27" layer="27" align="center"/>
 </element>
-<element name="C5" library="Samac Populated" package="CAPPM3528X210N" value="TAJB226M010RNJ" x="53.34" y="12.7" smashed="yes">
-<attribute name="DESCRIPTION" value="Tantalum Capacitors - Solid SMD 10volts 22uF 20%" x="13.97" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="2.1mm" x="13.97" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" x="13.97" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TAJB226M010RNJ" x="13.97" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="581-TAJB226M010R" x="13.97" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-TAJB226M010R" x="13.97" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="59.69" y="12.7" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="1354085" x="13.97" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1354085" x="13.97" y="15.24" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="53.34" y="12.7" size="1.27" layer="27" align="center"/>
+<element name="C5" library="Samac Populated" package="CAPPM3528X210N" value="TAJB226M010RNJ" x="54.61" y="13.97" smashed="yes">
+<attribute name="DESCRIPTION" value="Tantalum Capacitors - Solid SMD 10volts 22uF 20%" x="15.24" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="2.1mm" x="15.24" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="AVX" x="15.24" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TAJB226M010RNJ" x="15.24" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="581-TAJB226M010R" x="15.24" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-TAJB226M010R" x="15.24" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="60.96" y="13.97" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1354085" x="15.24" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1354085" x="15.24" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="54.61" y="13.97" size="1.27" layer="27" align="center"/>
 </element>
-<element name="C6" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="CAP-PTH-2.54" package3d_urn="urn:adsk.eagle:package:37435/1" value="1uF" x="90.17" y="22.86" smashed="yes">
-<attribute name="NAME" x="92.71" y="23.876" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-09128" x="45.72" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="90.17" y="21.844" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="C6" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="CAP-PTH-2.54" package3d_urn="urn:adsk.eagle:package:37435/1" value="1uF" x="91.44" y="24.13" smashed="yes">
+<attribute name="NAME" x="93.98" y="25.146" size="1.4224" layer="25" font="vector" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-09128" x="46.99" y="1.27" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="91.44" y="23.114" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R12" library="Samac Populated" package="RESC3116X70N" value="10K" x="87.63" y="12.7" smashed="yes" rot="R90">
-<attribute name="ALLIED_NUMBER" value="70265175" x="88.9" y="-27.94" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" x="88.9" y="-27.94" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" x="88.9" y="-27.94" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="0.7mm" x="88.9" y="-27.94" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="88.9" y="-27.94" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="88.9" y="-27.94" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="88.9" y="-27.94" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="88.9" y="-27.94" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="90.17" y="12.7" size="1.27" layer="25" rot="R90" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="88.9" y="-27.94" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="88.9" y="-27.94" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="87.63" y="12.7" size="1.27" layer="27" rot="R90" align="center"/>
+<element name="R12" library="Samac Populated" package="RESC3116X70N" value="10K" x="88.9" y="13.97" smashed="yes" rot="R90">
+<attribute name="ALLIED_NUMBER" value="70265175" x="90.17" y="-26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" x="90.17" y="-26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" x="90.17" y="-26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.7mm" x="90.17" y="-26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="90.17" y="-26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="90.17" y="-26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="90.17" y="-26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="90.17" y="-26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="91.44" y="13.97" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="90.17" y="-26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="90.17" y="-26.67" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="88.9" y="13.97" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="R15" library="Samac Populated" package="RESC3116X70N" value="10K" x="90.17" y="20.32" smashed="yes" rot="R180">
-<attribute name="ALLIED_NUMBER" value="70265175" x="135.89" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" x="135.89" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" x="135.89" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.7mm" x="135.89" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="135.89" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="135.89" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="" x="135.89" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="135.89" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="95.25" y="20.32" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="135.89" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="135.89" y="24.13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="90.17" y="20.32" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="R15" library="Samac Populated" package="RESC3116X70N" value="10K" x="91.44" y="21.59" smashed="yes" rot="R180">
+<attribute name="ALLIED_NUMBER" value="70265175" x="137.16" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/panasonic-erj-8geyj101v/70265175/" x="137.16" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="PANASONIC ELECTRONIC COMPONENTS - ERJ8GEYJ101V - RES, THICK FILM, 100R, 5%, 0.25W, 1206" x="137.16" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="0.7mm" x="137.16" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="137.16" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" x="137.16" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="137.16" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="137.16" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="96.52" y="21.59" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="137.16" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="137.16" y="25.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="91.44" y="21.59" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 </elements>
 <signals>
@@ -1046,34 +1044,34 @@ design rules under a new name.</description>
 <contactref element="R5" pad="1"/>
 <contactref element="R6" pad="2"/>
 <contactref element="C3" pad="1"/>
-<wire x1="83.185" y1="11.43" x2="85.09" y2="11.43" width="0.3048" layer="1"/>
-<wire x1="83.185" y1="17.145" x2="83.185" y2="11.43" width="0.3048" layer="1"/>
-<wire x1="85.09" y1="19.05" x2="83.185" y2="17.145" width="0.3048" layer="1"/>
-<wire x1="85.09" y1="20.32" x2="85.09" y2="19.05" width="0.3048" layer="1"/>
-<wire x1="85.09" y1="11.43" x2="85.09" y2="11.25" width="0.3048" layer="1"/>
-<wire x1="85.09" y1="20.32" x2="85.09" y2="22.86" width="0.3048" layer="1"/>
-<wire x1="85.09" y1="22.86" x2="85.27" y2="22.86" width="0.3048" layer="1"/>
-<wire x1="116.84" y1="22.225" x2="116.84" y2="16.97" width="0.3048" layer="16"/>
-<wire x1="108.585" y1="22.225" x2="116.84" y2="22.225" width="0.3048" layer="16"/>
-<wire x1="106.045" y1="19.685" x2="108.585" y2="22.225" width="0.3048" layer="16"/>
-<wire x1="86.36" y1="19.685" x2="106.045" y2="19.685" width="0.3048" layer="16"/>
-<wire x1="85.725" y1="20.32" x2="86.36" y2="19.685" width="0.3048" layer="16"/>
-<wire x1="85.09" y1="20.32" x2="85.725" y2="20.32" width="0.3048" layer="16"/>
+<wire x1="84.455" y1="12.7" x2="86.36" y2="12.7" width="0.3048" layer="1"/>
+<wire x1="84.455" y1="18.415" x2="84.455" y2="12.7" width="0.3048" layer="1"/>
+<wire x1="86.36" y1="20.32" x2="84.455" y2="18.415" width="0.3048" layer="1"/>
+<wire x1="86.36" y1="21.59" x2="86.36" y2="20.32" width="0.3048" layer="1"/>
+<wire x1="86.36" y1="12.7" x2="86.36" y2="12.52" width="0.3048" layer="1"/>
+<wire x1="86.36" y1="21.59" x2="86.36" y2="24.13" width="0.3048" layer="1"/>
+<wire x1="86.36" y1="24.13" x2="86.54" y2="24.13" width="0.3048" layer="1"/>
+<wire x1="118.11" y1="23.495" x2="118.11" y2="18.24" width="0.3048" layer="16"/>
+<wire x1="109.855" y1="23.495" x2="118.11" y2="23.495" width="0.3048" layer="16"/>
+<wire x1="107.315" y1="20.955" x2="109.855" y2="23.495" width="0.3048" layer="16"/>
+<wire x1="87.63" y1="20.955" x2="107.315" y2="20.955" width="0.3048" layer="16"/>
+<wire x1="86.995" y1="21.59" x2="87.63" y2="20.955" width="0.3048" layer="16"/>
+<wire x1="86.36" y1="21.59" x2="86.995" y2="21.59" width="0.3048" layer="16"/>
 </signal>
 <signal name="GND">
 <contactref element="IR_LED" pad="2"/>
 <contactref element="IC2" pad="2"/>
 <polygon width="0.1524" layer="1" isolate="0.4064">
-<vertex x="-1.27" y="82.55"/>
-<vertex x="142.24" y="82.55"/>
-<vertex x="142.24" y="-2.54"/>
-<vertex x="-1.27" y="-2.54"/>
+<vertex x="-1.27" y="83.82"/>
+<vertex x="143.51" y="83.82"/>
+<vertex x="143.51" y="-1.27"/>
+<vertex x="-1.27" y="-1.27"/>
 </polygon>
 <polygon width="0.1524" layer="16">
-<vertex x="-5.08" y="69.85"/>
-<vertex x="-5.08" y="-7.62"/>
-<vertex x="148.59" y="-7.62"/>
-<vertex x="148.59" y="69.85"/>
+<vertex x="-3.81" y="71.12"/>
+<vertex x="-3.81" y="-6.35"/>
+<vertex x="149.86" y="-6.35"/>
+<vertex x="149.86" y="71.12"/>
 </polygon>
 <contactref element="DEBUG" pad="1"/>
 <contactref element="LED1" pad="1"/>
@@ -1094,7 +1092,7 @@ design rules under a new name.</description>
 <signal name="N$9">
 <contactref element="IR_LED" pad="1"/>
 <contactref element="R14" pad="1"/>
-<wire x1="113.2078" y1="20.32" x2="116.61" y2="20.32" width="0.3048" layer="1"/>
+<wire x1="114.4778" y1="21.59" x2="117.88" y2="21.59" width="0.3048" layer="1"/>
 </signal>
 <signal name="VCC">
 <contactref element="IC2" pad="3"/>
@@ -1105,316 +1103,308 @@ design rules under a new name.</description>
 <contactref element="R10" pad="2"/>
 <contactref element="R8" pad="2"/>
 <contactref element="R12" pad="2"/>
-<wire x1="99.06" y1="20.32" x2="100.33" y2="21.59" width="0.3048" layer="1"/>
-<wire x1="99.06" y1="16.97" x2="99.06" y2="20.32" width="0.3048" layer="1"/>
-<wire x1="100.33" y1="21.59" x2="100.33" y2="21.77" width="0.3048" layer="1"/>
-<wire x1="87.63" y1="13.97" x2="85.09" y2="13.97" width="0.3048" layer="1"/>
-<wire x1="85.09" y1="13.97" x2="85.09" y2="14.15" width="0.3048" layer="1"/>
-<wire x1="97.79" y1="7.62" x2="95.25" y2="5.08" width="0.3048" layer="1"/>
-<wire x1="97.79" y1="13.97" x2="97.79" y2="8.255" width="0.3048" layer="1"/>
-<wire x1="97.79" y1="8.255" x2="97.79" y2="7.62" width="0.3048" layer="1"/>
-<wire x1="95.25" y1="5.08" x2="95.07" y2="5.08" width="0.3048" layer="1"/>
-<wire x1="99.695" y1="6.35" x2="99.695" y2="5.08" width="0.3048" layer="1"/>
-<wire x1="97.79" y1="8.255" x2="99.695" y2="6.35" width="0.3048" layer="1"/>
-<wire x1="99.695" y1="5.08" x2="100.15" y2="5.08" width="0.3048" layer="1"/>
-<wire x1="97.97" y1="13.97" x2="100.15" y2="13.97" width="0.3048" layer="1"/>
-<wire x1="92.075" y1="13.97" x2="87.63" y2="13.97" width="0.3048" layer="1"/>
-<wire x1="97.79" y1="8.255" x2="92.075" y2="13.97" width="0.3048" layer="1"/>
-<wire x1="87.63" y1="13.97" x2="87.63" y2="14.15" width="0.3048" layer="1"/>
-<wire x1="97.79" y1="15.24" x2="99.06" y2="16.51" width="0.3048" layer="1"/>
-<wire x1="97.79" y1="13.97" x2="97.79" y2="15.24" width="0.3048" layer="1"/>
-<wire x1="99.06" y1="16.51" x2="99.06" y2="16.97" width="0.3048" layer="1"/>
-<wire x1="97.79" y1="13.97" x2="97.97" y2="13.97" width="0.3048" layer="1"/>
+<wire x1="100.33" y1="21.59" x2="101.6" y2="22.86" width="0.3048" layer="1"/>
+<wire x1="100.33" y1="18.24" x2="100.33" y2="21.59" width="0.3048" layer="1"/>
+<wire x1="101.6" y1="22.86" x2="101.6" y2="23.04" width="0.3048" layer="1"/>
+<wire x1="88.9" y1="15.24" x2="86.36" y2="15.24" width="0.3048" layer="1"/>
+<wire x1="86.36" y1="15.24" x2="86.36" y2="15.42" width="0.3048" layer="1"/>
+<wire x1="99.06" y1="8.89" x2="96.52" y2="6.35" width="0.3048" layer="1"/>
+<wire x1="99.06" y1="15.24" x2="99.06" y2="9.525" width="0.3048" layer="1"/>
+<wire x1="99.06" y1="9.525" x2="99.06" y2="8.89" width="0.3048" layer="1"/>
+<wire x1="96.52" y1="6.35" x2="96.34" y2="6.35" width="0.3048" layer="1"/>
+<wire x1="100.965" y1="7.62" x2="100.965" y2="6.35" width="0.3048" layer="1"/>
+<wire x1="99.06" y1="9.525" x2="100.965" y2="7.62" width="0.3048" layer="1"/>
+<wire x1="100.965" y1="6.35" x2="101.42" y2="6.35" width="0.3048" layer="1"/>
+<wire x1="99.24" y1="15.24" x2="101.42" y2="15.24" width="0.3048" layer="1"/>
+<wire x1="93.345" y1="15.24" x2="88.9" y2="15.24" width="0.3048" layer="1"/>
+<wire x1="99.06" y1="9.525" x2="93.345" y2="15.24" width="0.3048" layer="1"/>
+<wire x1="88.9" y1="15.24" x2="88.9" y2="15.42" width="0.3048" layer="1"/>
+<wire x1="99.06" y1="16.51" x2="100.33" y2="17.78" width="0.3048" layer="1"/>
+<wire x1="99.06" y1="15.24" x2="99.06" y2="16.51" width="0.3048" layer="1"/>
+<wire x1="100.33" y1="17.78" x2="100.33" y2="18.24" width="0.3048" layer="1"/>
+<wire x1="99.06" y1="15.24" x2="99.24" y2="15.24" width="0.3048" layer="1"/>
 </signal>
 <signal name="CHAN2">
 <contactref element="ARDUINOMICRO" pad="9"/>
 <contactref element="R12" pad="1"/>
 <contactref element="R15" pad="2"/>
 <contactref element="C6" pad="1"/>
-<wire x1="88.9" y1="20.32" x2="88.9" y2="20.955" width="0.3048" layer="1"/>
-<wire x1="88.9" y1="20.32" x2="88.72" y2="20.32" width="0.3048" layer="1"/>
-<wire x1="88.9" y1="20.955" x2="88.9" y2="22.86" width="0.3048" layer="1"/>
-<wire x1="88.9" y1="20.955" x2="88.72" y2="20.32" width="0.3048" layer="1"/>
-<wire x1="103.505" y1="4.445" x2="106.68" y2="1.27" width="0.3048" layer="16"/>
-<wire x1="90.17" y1="4.445" x2="103.505" y2="4.445" width="0.3048" layer="16"/>
-<wire x1="87.63" y1="6.985" x2="88.519" y2="6.096" width="0.3048" layer="16"/>
-<wire x1="88.519" y1="6.096" x2="90.17" y2="4.445" width="0.3048" layer="16"/>
-<wire x1="87.63" y1="11.25" x2="87.63" y2="6.985" width="0.3048" layer="1"/>
-<via x="87.63" y="6.985" extent="1-16" drill="0.508"/>
-<wire x1="88.5698" y1="22.9108" x2="88.8492" y2="22.9108" width="0.3048" layer="16"/>
-<wire x1="87.7316" y1="23.749" x2="88.5698" y2="22.9108" width="0.3048" layer="16"/>
-<wire x1="81.026" y1="23.749" x2="87.7316" y2="23.749" width="0.3048" layer="16"/>
-<wire x1="79.629" y1="22.352" x2="81.026" y2="23.749" width="0.3048" layer="16"/>
-<wire x1="78.232" y1="20.955" x2="79.629" y2="22.352" width="0.3048" layer="1"/>
-<wire x1="78.232" y1="10.8966" x2="78.232" y2="20.955" width="0.3048" layer="1"/>
-<wire x1="79.3496" y1="9.779" x2="78.232" y2="10.8966" width="0.3048" layer="1"/>
-<wire x1="83.5406" y1="5.588" x2="79.3496" y2="9.779" width="0.3048" layer="16"/>
-<wire x1="88.011" y1="5.588" x2="83.5406" y2="5.588" width="0.3048" layer="16"/>
-<wire x1="88.519" y1="6.096" x2="88.011" y2="5.588" width="0.3048" layer="16"/>
-<wire x1="88.8492" y1="22.9108" x2="88.9" y2="22.86" width="0.3048" layer="16"/>
-<via x="79.629" y="22.352" extent="1-16" drill="0.508"/>
-<via x="79.3496" y="9.779" extent="1-16" drill="0.508"/>
+<wire x1="90.17" y1="21.59" x2="90.17" y2="22.225" width="0.3048" layer="1"/>
+<wire x1="90.17" y1="21.59" x2="89.99" y2="21.59" width="0.3048" layer="1"/>
+<wire x1="90.17" y1="22.225" x2="90.17" y2="24.13" width="0.3048" layer="1"/>
+<wire x1="90.17" y1="22.225" x2="89.99" y2="21.59" width="0.3048" layer="1"/>
+<wire x1="104.775" y1="5.715" x2="107.95" y2="2.54" width="0.3048" layer="16"/>
+<wire x1="91.44" y1="5.715" x2="104.775" y2="5.715" width="0.3048" layer="16"/>
+<wire x1="88.9" y1="8.255" x2="89.789" y2="7.366" width="0.3048" layer="16"/>
+<wire x1="89.789" y1="7.366" x2="91.44" y2="5.715" width="0.3048" layer="16"/>
+<wire x1="88.9" y1="12.52" x2="88.9" y2="8.255" width="0.3048" layer="1"/>
+<via x="88.9" y="8.255" extent="1-16" drill="0.508"/>
+<wire x1="89.8398" y1="24.1808" x2="90.1192" y2="24.1808" width="0.3048" layer="16"/>
+<wire x1="89.0016" y1="25.019" x2="89.8398" y2="24.1808" width="0.3048" layer="16"/>
+<wire x1="82.296" y1="25.019" x2="89.0016" y2="25.019" width="0.3048" layer="16"/>
+<wire x1="80.899" y1="23.622" x2="82.296" y2="25.019" width="0.3048" layer="16"/>
+<wire x1="79.502" y1="22.225" x2="80.899" y2="23.622" width="0.3048" layer="1"/>
+<wire x1="79.502" y1="12.1666" x2="79.502" y2="22.225" width="0.3048" layer="1"/>
+<wire x1="80.6196" y1="11.049" x2="79.502" y2="12.1666" width="0.3048" layer="1"/>
+<wire x1="84.8106" y1="6.858" x2="80.6196" y2="11.049" width="0.3048" layer="16"/>
+<wire x1="89.281" y1="6.858" x2="84.8106" y2="6.858" width="0.3048" layer="16"/>
+<wire x1="89.789" y1="7.366" x2="89.281" y2="6.858" width="0.3048" layer="16"/>
+<wire x1="90.1192" y1="24.1808" x2="90.17" y2="24.13" width="0.3048" layer="16"/>
+<via x="80.899" y="23.622" extent="1-16" drill="0.508"/>
+<via x="80.6196" y="11.049" extent="1-16" drill="0.508"/>
 </signal>
 <signal name="IRREC">
 <contactref element="IC2" pad="1"/>
 <contactref element="ARDUINOMICRO" pad="18"/>
-<wire x1="105.41" y1="23.495" x2="105.41" y2="21.77" width="0.3048" layer="16"/>
-<wire x1="117.475" y1="23.495" x2="105.41" y2="23.495" width="0.3048" layer="16"/>
-<wire x1="122.555" y1="18.415" x2="117.475" y2="23.495" width="0.3048" layer="16"/>
-<wire x1="125.73" y1="18.415" x2="122.555" y2="18.415" width="0.3048" layer="16"/>
-<wire x1="126.365" y1="17.78" x2="125.73" y2="18.415" width="0.3048" layer="16"/>
-<wire x1="126.365" y1="17.145" x2="126.365" y2="17.78" width="0.3048" layer="16"/>
-<wire x1="127" y1="17.145" x2="126.365" y2="17.145" width="0.3048" layer="16"/>
-<wire x1="127" y1="17.145" x2="127" y2="16.97" width="0.3048" layer="16"/>
+<wire x1="106.68" y1="24.765" x2="106.68" y2="23.04" width="0.3048" layer="16"/>
+<wire x1="118.745" y1="24.765" x2="106.68" y2="24.765" width="0.3048" layer="16"/>
+<wire x1="123.825" y1="19.685" x2="118.745" y2="24.765" width="0.3048" layer="16"/>
+<wire x1="127" y1="19.685" x2="123.825" y2="19.685" width="0.3048" layer="16"/>
+<wire x1="127.635" y1="19.05" x2="127" y2="19.685" width="0.3048" layer="16"/>
+<wire x1="127.635" y1="18.415" x2="127.635" y2="19.05" width="0.3048" layer="16"/>
+<wire x1="128.27" y1="18.415" x2="127.635" y2="18.415" width="0.3048" layer="16"/>
+<wire x1="128.27" y1="18.415" x2="128.27" y2="18.24" width="0.3048" layer="16"/>
 </signal>
 <signal name="DEBUGJ">
 <contactref element="DEBUG" pad="2"/>
 <contactref element="ARDUINOMICRO" pad="21"/>
-<wire x1="122.936" y1="20.3962" x2="119.5832" y2="17.0434" width="0.3048" layer="1"/>
-<wire x1="119.5832" y1="17.0434" x2="119.38" y2="16.97" width="0.3048" layer="1"/>
-<wire x1="122.936" y1="20.3962" x2="123.0122" y2="20.32" width="0.3048" layer="1"/>
+<wire x1="124.206" y1="21.6662" x2="120.8532" y2="18.3134" width="0.3048" layer="1"/>
+<wire x1="120.8532" y1="18.3134" x2="120.65" y2="18.24" width="0.3048" layer="1"/>
+<wire x1="124.206" y1="21.6662" x2="124.2822" y2="21.59" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="LED2" pad="2"/>
 <contactref element="R13" pad="1"/>
-<wire x1="109.855" y1="11.43" x2="111.76" y2="11.43" width="0.3048" layer="1"/>
-<wire x1="106.045" y1="15.24" x2="109.855" y2="11.43" width="0.3048" layer="16"/>
-<wire x1="83.82" y1="15.24" x2="106.045" y2="15.24" width="0.3048" layer="16"/>
-<wire x1="80.01" y1="19.05" x2="83.82" y2="15.24" width="0.3048" layer="16"/>
-<wire x1="50.165" y1="19.05" x2="80.01" y2="19.05" width="0.3048" layer="16"/>
-<wire x1="48.895" y1="20.32" x2="50.165" y2="19.05" width="0.3048" layer="16"/>
-<wire x1="47.625" y1="21.59" x2="48.895" y2="20.32" width="0.3048" layer="1"/>
-<wire x1="111.76" y1="11.43" x2="111.76" y2="11.25" width="0.3048" layer="1"/>
-<wire x1="47.625" y1="21.59" x2="47.27" y2="21.59" width="0.3048" layer="1"/>
-<via x="109.855" y="11.43" extent="1-16" drill="0.508"/>
-<via x="48.895" y="20.32" extent="1-16" drill="0.508"/>
+<wire x1="111.125" y1="12.7" x2="113.03" y2="12.7" width="0.3048" layer="1"/>
+<wire x1="107.315" y1="16.51" x2="111.125" y2="12.7" width="0.3048" layer="16"/>
+<wire x1="85.09" y1="16.51" x2="107.315" y2="16.51" width="0.3048" layer="16"/>
+<wire x1="81.28" y1="20.32" x2="85.09" y2="16.51" width="0.3048" layer="16"/>
+<wire x1="51.435" y1="20.32" x2="81.28" y2="20.32" width="0.3048" layer="16"/>
+<wire x1="50.165" y1="21.59" x2="51.435" y2="20.32" width="0.3048" layer="16"/>
+<wire x1="48.895" y1="22.86" x2="50.165" y2="21.59" width="0.3048" layer="1"/>
+<wire x1="113.03" y1="12.7" x2="113.03" y2="12.52" width="0.3048" layer="1"/>
+<wire x1="48.895" y1="22.86" x2="48.54" y2="22.86" width="0.3048" layer="1"/>
+<via x="111.125" y="12.7" extent="1-16" drill="0.508"/>
+<via x="50.165" y="21.59" extent="1-16" drill="0.508"/>
 </signal>
 <signal name="N$4">
 <contactref element="LED1" pad="2"/>
 <contactref element="R7" pad="1"/>
-<wire x1="104.14" y1="6.985" x2="107.95" y2="10.795" width="0.3048" layer="1"/>
-<wire x1="102.235" y1="5.08" x2="104.14" y2="6.985" width="0.3048" layer="16"/>
-<wire x1="90.805" y1="5.08" x2="102.235" y2="5.08" width="0.3048" layer="16"/>
-<wire x1="85.09" y1="10.795" x2="90.805" y2="5.08" width="0.3048" layer="16"/>
-<wire x1="43.18" y1="10.795" x2="44.9834" y2="10.795" width="0.3048" layer="16"/>
-<wire x1="44.9834" y1="10.795" x2="85.09" y2="10.795" width="0.3048" layer="16"/>
-<wire x1="107.95" y1="10.795" x2="107.95" y2="11.25" width="0.3048" layer="1"/>
-<via x="104.14" y="6.985" extent="1-16" drill="0.508"/>
-<via x="43.18" y="10.795" extent="1-16" drill="0.508"/>
-<wire x1="4.7498" y1="17.3228" x2="8.9408" y2="21.5138" width="0.3048" layer="1"/>
-<wire x1="4.7498" y1="16.4846" x2="4.7498" y2="17.3228" width="0.3048" layer="1"/>
-<wire x1="8.9408" y1="21.5138" x2="9.17" y2="21.59" width="0.3048" layer="1"/>
-<wire x1="4.4704" y1="16.4846" x2="4.7498" y2="16.4846" width="0.3048" layer="1"/>
-<wire x1="4.4704" y1="16.2052" x2="4.4704" y2="16.4846" width="0.3048" layer="16"/>
-<wire x1="8.382" y1="12.2936" x2="4.4704" y2="16.2052" width="0.3048" layer="16"/>
-<wire x1="43.5864" y1="12.2936" x2="8.382" y2="12.2936" width="0.3048" layer="16"/>
-<wire x1="44.9834" y1="10.8966" x2="43.5864" y2="12.2936" width="0.3048" layer="16"/>
-<wire x1="44.9834" y1="10.8966" x2="44.9834" y2="10.795" width="0.3048" layer="16"/>
-<via x="4.4704" y="16.4846" extent="1-16" drill="0.508"/>
+<wire x1="104.14" y1="4.445" x2="104.775" y2="4.445" width="0.3048" layer="1"/>
+<via x="104.14" y="4.445" extent="1-16" drill="0.508"/>
+<wire x1="109.22" y1="8.89" x2="109.22" y2="12.52" width="0.3048" layer="1"/>
+<wire x1="104.775" y1="4.445" x2="109.22" y2="8.89" width="0.3048" layer="1"/>
+<wire x1="12.1666" y1="22.7838" x2="10.4902" y2="22.7838" width="0.3048" layer="1"/>
+<wire x1="9.9314" y1="22.7838" x2="12.1666" y2="22.7838" width="0.3048" layer="16"/>
+<wire x1="5.7404" y1="18.5928" x2="9.9314" y2="22.7838" width="0.3048" layer="16"/>
+<wire x1="5.7404" y1="17.4752" x2="5.7404" y2="18.5928" width="0.3048" layer="16"/>
+<wire x1="9.3726" y1="13.843" x2="5.7404" y2="17.4752" width="0.3048" layer="16"/>
+<wire x1="10.4902" y1="22.7838" x2="10.44" y2="22.86" width="0.3048" layer="1"/>
+<via x="12.1666" y="22.7838" extent="1-16" drill="0.508"/>
+<wire x1="61.6204" y1="4.6228" x2="104.0892" y2="4.6228" width="0.3048" layer="16"/>
+<wire x1="51.8414" y1="14.4018" x2="61.6204" y2="4.6228" width="0.3048" layer="16"/>
+<wire x1="9.9314" y1="14.4018" x2="51.8414" y2="14.4018" width="0.3048" layer="16"/>
+<wire x1="9.3726" y1="13.843" x2="9.9314" y2="14.4018" width="0.3048" layer="16"/>
+<wire x1="104.0892" y1="4.6228" x2="104.14" y2="4.445" width="0.3048" layer="16"/>
 </signal>
 <signal name="STATUS_CH1">
 <contactref element="ARDUINOMICRO" pad="25"/>
 <contactref element="R7" pad="2"/>
-<wire x1="109.22" y1="15.875" x2="107.95" y2="14.605" width="0.3048" layer="1"/>
-<wire x1="109.22" y1="16.97" x2="109.22" y2="15.875" width="0.3048" layer="1"/>
-<wire x1="107.95" y1="14.605" x2="107.95" y2="14.15" width="0.3048" layer="1"/>
+<wire x1="110.49" y1="17.145" x2="109.22" y2="15.875" width="0.3048" layer="1"/>
+<wire x1="110.49" y1="18.24" x2="110.49" y2="17.145" width="0.3048" layer="1"/>
+<wire x1="109.22" y1="15.875" x2="109.22" y2="15.42" width="0.3048" layer="1"/>
 </signal>
 <signal name="STATUS_CH2">
 <contactref element="ARDUINOMICRO" pad="24"/>
 <contactref element="R13" pad="2"/>
-<wire x1="111.76" y1="16.97" x2="111.76" y2="14.15" width="0.3048" layer="1"/>
+<wire x1="113.03" y1="18.24" x2="113.03" y2="15.42" width="0.3048" layer="1"/>
 </signal>
 <signal name="IRLED">
 <contactref element="ARDUINOMICRO" pad="14"/>
 <contactref element="R14" pad="2"/>
-<wire x1="128.905" y1="12.065" x2="128.905" y2="18.415" width="0.3048" layer="1"/>
-<wire x1="119.38" y1="2.54" x2="128.905" y2="12.065" width="0.3048" layer="1"/>
-<wire x1="119.38" y1="1.27" x2="119.38" y2="2.54" width="0.3048" layer="1"/>
-<wire x1="124.46" y1="22.225" x2="122.6566" y2="22.225" width="0.3048" layer="1"/>
-<wire x1="124.46" y1="19.685" x2="124.46" y2="22.225" width="0.3048" layer="1"/>
-<wire x1="125.73" y1="18.415" x2="124.46" y2="19.685" width="0.3048" layer="1"/>
-<wire x1="128.905" y1="18.415" x2="125.73" y2="18.415" width="0.3048" layer="1"/>
-<wire x1="120.7008" y1="20.3962" x2="119.8626" y2="20.3962" width="0.3048" layer="1"/>
-<wire x1="122.6566" y1="22.352" x2="120.7008" y2="20.3962" width="0.3048" layer="1"/>
-<wire x1="119.8626" y1="20.3962" x2="119.61" y2="20.32" width="0.3048" layer="1"/>
-<wire x1="122.6566" y1="22.352" x2="122.6566" y2="22.225" width="0.3048" layer="1"/>
+<wire x1="130.175" y1="13.335" x2="130.175" y2="19.685" width="0.3048" layer="1"/>
+<wire x1="120.65" y1="3.81" x2="130.175" y2="13.335" width="0.3048" layer="1"/>
+<wire x1="120.65" y1="2.54" x2="120.65" y2="3.81" width="0.3048" layer="1"/>
+<wire x1="123.9266" y1="23.495" x2="125.73" y2="23.495" width="0.3048" layer="1"/>
+<wire x1="125.73" y1="20.955" x2="125.73" y2="23.495" width="0.3048" layer="1"/>
+<wire x1="127" y1="19.685" x2="125.73" y2="20.955" width="0.3048" layer="1"/>
+<wire x1="130.175" y1="19.685" x2="127" y2="19.685" width="0.3048" layer="1"/>
+<wire x1="121.1326" y1="21.6662" x2="121.9708" y2="21.6662" width="0.3048" layer="1"/>
+<wire x1="121.1326" y1="21.6662" x2="120.88" y2="21.59" width="0.3048" layer="1"/>
+<wire x1="121.9708" y1="21.6662" x2="123.9266" y2="23.495" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$12">
 <contactref element="J1" pad="1"/>
 <contactref element="J1" pad="3"/>
 <contactref element="L1" pad="2"/>
-<wire x1="17.145" y1="6.35" x2="22.225" y2="1.27" width="0.3048" layer="16"/>
-<wire x1="15.24" y1="6.35" x2="17.145" y2="6.35" width="0.3048" layer="16"/>
-<wire x1="22.225" y1="1.27" x2="22.55" y2="0.96" width="0.3048" layer="16"/>
-<wire x1="15.24" y1="6.35" x2="15.18" y2="6.24" width="0.3048" layer="16"/>
-<wire x1="14.605" y1="5.715" x2="11.43" y2="2.54" width="0.3048" layer="16"/>
-<wire x1="14.605" y1="5.715" x2="15.18" y2="6.24" width="0.3048" layer="16"/>
+<wire x1="18.415" y1="7.62" x2="23.495" y2="2.54" width="0.3048" layer="16"/>
+<wire x1="16.51" y1="7.62" x2="18.415" y2="7.62" width="0.3048" layer="16"/>
+<wire x1="23.495" y1="2.54" x2="23.82" y2="2.23" width="0.3048" layer="16"/>
+<wire x1="16.51" y1="7.62" x2="16.45" y2="7.51" width="0.3048" layer="16"/>
+<wire x1="15.875" y1="6.985" x2="12.7" y2="3.81" width="0.3048" layer="16"/>
+<wire x1="15.875" y1="6.985" x2="16.45" y2="7.51" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$15">
 <contactref element="J1" pad="2"/>
 <contactref element="L1" pad="1"/>
-<wire x1="20.3962" y1="20.955" x2="22.225" y2="20.955" width="0.3048" layer="1"/>
-<wire x1="8.255" y1="6.35" x2="8.255" y2="9.4996" width="0.3048" layer="1"/>
-<wire x1="22.225" y1="20.955" x2="22.55" y2="20.96" width="0.3048" layer="1"/>
-<wire x1="8.255" y1="6.35" x2="7.68" y2="6.24" width="0.3048" layer="1"/>
-<wire x1="20.3962" y1="13.6906" x2="20.3962" y2="20.955" width="0.3048" layer="1"/>
-<wire x1="16.2052" y1="9.4996" x2="20.3962" y2="13.6906" width="0.3048" layer="1"/>
-<wire x1="8.255" y1="9.4996" x2="16.2052" y2="9.4996" width="0.3048" layer="1"/>
+<wire x1="21.6662" y1="22.225" x2="23.495" y2="22.225" width="0.3048" layer="1"/>
+<wire x1="9.525" y1="7.62" x2="9.525" y2="10.7696" width="0.3048" layer="1"/>
+<wire x1="23.495" y1="22.225" x2="23.82" y2="22.23" width="0.3048" layer="1"/>
+<wire x1="9.525" y1="7.62" x2="8.95" y2="7.51" width="0.3048" layer="1"/>
+<wire x1="21.6662" y1="14.9606" x2="21.6662" y2="22.225" width="0.3048" layer="1"/>
+<wire x1="17.4752" y1="10.7696" x2="21.6662" y2="14.9606" width="0.3048" layer="1"/>
+<wire x1="9.525" y1="10.7696" x2="17.4752" y2="10.7696" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$17">
 <contactref element="L1" pad="3"/>
 <contactref element="C1" pad="2"/>
-<wire x1="20.955" y1="22.86" x2="16.74" y2="18.645" width="0.3048" layer="1"/>
-<wire x1="29.845" y1="22.86" x2="20.955" y2="22.86" width="0.3048" layer="1"/>
-<wire x1="29.845" y1="21.59" x2="29.845" y2="22.86" width="0.3048" layer="1"/>
-<wire x1="16.74" y1="18.645" x2="16.74" y2="17.78" width="0.3048" layer="1"/>
-<wire x1="29.845" y1="21.59" x2="30.05" y2="20.96" width="0.3048" layer="1"/>
+<wire x1="22.225" y1="24.13" x2="18.01" y2="19.915" width="0.3048" layer="1"/>
+<wire x1="31.115" y1="24.13" x2="22.225" y2="24.13" width="0.3048" layer="1"/>
+<wire x1="31.115" y1="22.86" x2="31.115" y2="24.13" width="0.3048" layer="1"/>
+<wire x1="18.01" y1="19.915" x2="18.01" y2="19.05" width="0.3048" layer="1"/>
+<wire x1="31.115" y1="22.86" x2="31.32" y2="22.23" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$16">
 <contactref element="C1" pad="1"/>
 <contactref element="Q1" pad="2"/>
 <contactref element="R3" pad="1"/>
 <contactref element="R4" pad="1"/>
-<wire x1="93.345" y1="13.97" x2="95.07" y2="13.97" width="0.3048" layer="1"/>
-<wire x1="92.71" y1="14.605" x2="93.345" y2="13.97" width="0.3048" layer="16"/>
-<wire x1="9.525" y1="14.605" x2="92.71" y2="14.605" width="0.3048" layer="16"/>
-<wire x1="7.62" y1="16.51" x2="9.525" y2="14.605" width="0.3048" layer="16"/>
-<wire x1="7.62" y1="17.958" x2="7.62" y2="16.51" width="0.3048" layer="16"/>
-<wire x1="9.525" y1="18.415" x2="10.0584" y2="17.8816" width="0.3048" layer="1"/>
-<wire x1="7.62" y1="18.415" x2="9.525" y2="18.415" width="0.3048" layer="1"/>
-<wire x1="7.62" y1="18.415" x2="7.62" y2="17.958" width="0.3048" layer="1"/>
-<via x="93.345" y="13.97" extent="1-16" drill="0.508"/>
-<wire x1="13.97" y1="17.8816" x2="13.97" y2="22.6314" width="0.3048" layer="1"/>
-<wire x1="13.97" y1="22.6314" x2="13.79" y2="22.86" width="0.3048" layer="1"/>
-<wire x1="13.97" y1="17.8816" x2="13.74" y2="17.78" width="0.3048" layer="1"/>
-<wire x1="10.0584" y1="17.8816" x2="13.6906" y2="17.8816" width="0.3048" layer="1"/>
-<wire x1="13.6906" y1="17.8816" x2="13.74" y2="17.78" width="0.3048" layer="1"/>
+<wire x1="94.615" y1="15.24" x2="96.34" y2="15.24" width="0.3048" layer="1"/>
+<wire x1="93.98" y1="15.875" x2="94.615" y2="15.24" width="0.3048" layer="16"/>
+<wire x1="10.795" y1="15.875" x2="93.98" y2="15.875" width="0.3048" layer="16"/>
+<wire x1="8.89" y1="17.78" x2="10.795" y2="15.875" width="0.3048" layer="16"/>
+<wire x1="8.89" y1="19.228" x2="8.89" y2="17.78" width="0.3048" layer="16"/>
+<wire x1="10.795" y1="19.685" x2="11.3284" y2="19.1516" width="0.3048" layer="1"/>
+<wire x1="8.89" y1="19.685" x2="10.795" y2="19.685" width="0.3048" layer="1"/>
+<wire x1="8.89" y1="19.685" x2="8.89" y2="19.228" width="0.3048" layer="1"/>
+<via x="94.615" y="15.24" extent="1-16" drill="0.508"/>
+<wire x1="15.24" y1="19.1516" x2="15.24" y2="23.9014" width="0.3048" layer="1"/>
+<wire x1="15.24" y1="23.9014" x2="15.06" y2="24.13" width="0.3048" layer="1"/>
+<wire x1="15.24" y1="19.1516" x2="15.01" y2="19.05" width="0.3048" layer="1"/>
+<wire x1="11.3284" y1="19.1516" x2="14.9606" y2="19.1516" width="0.3048" layer="1"/>
+<wire x1="14.9606" y1="19.1516" x2="15.01" y2="19.05" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$20">
 <contactref element="Q1" pad="1"/>
 <contactref element="R2" pad="1"/>
 <contactref element="C2" pad="1"/>
-<wire x1="13.74" y1="12.7" x2="9.07" y2="12.7" width="0.3048" layer="1"/>
-<wire x1="8.89" y1="13.97" x2="6.35" y2="16.51" width="0.3048" layer="1"/>
-<wire x1="8.89" y1="12.7" x2="8.89" y2="13.97" width="0.3048" layer="1"/>
-<wire x1="6.35" y1="16.51" x2="6.15" y2="16.7" width="0.3048" layer="1"/>
-<wire x1="8.89" y1="12.7" x2="9.07" y2="12.7" width="0.3048" layer="1"/>
+<wire x1="15.01" y1="13.97" x2="10.34" y2="13.97" width="0.3048" layer="1"/>
+<wire x1="10.16" y1="15.24" x2="7.62" y2="17.78" width="0.3048" layer="1"/>
+<wire x1="10.16" y1="13.97" x2="10.16" y2="15.24" width="0.3048" layer="1"/>
+<wire x1="7.62" y1="17.78" x2="7.42" y2="17.97" width="0.3048" layer="1"/>
+<wire x1="10.16" y1="13.97" x2="10.34" y2="13.97" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$21">
 <contactref element="Q1" pad="3"/>
 <contactref element="R1" pad="1"/>
 <contactref element="C3" pad="2"/>
-<wire x1="101.6" y1="12.7" x2="102.87" y2="13.97" width="0.3048" layer="1"/>
-<wire x1="81.915" y1="12.7" x2="101.6" y2="12.7" width="0.3048" layer="16"/>
-<wire x1="81.915" y1="19.05" x2="81.915" y2="12.7" width="0.3048" layer="1"/>
-<wire x1="82.55" y1="19.685" x2="81.915" y2="19.05" width="0.3048" layer="1"/>
-<wire x1="82.55" y1="20.32" x2="82.55" y2="19.685" width="0.3048" layer="1"/>
-<wire x1="102.87" y1="13.97" x2="103.05" y2="13.97" width="0.3048" layer="1"/>
-<wire x1="15.24" y1="22.86" x2="9.525" y2="17.145" width="0.3048" layer="16"/>
-<wire x1="77.47" y1="22.86" x2="15.24" y2="22.86" width="0.3048" layer="16"/>
-<wire x1="80.645" y1="19.685" x2="77.47" y2="22.86" width="0.3048" layer="16"/>
-<wire x1="81.28" y1="19.685" x2="80.645" y2="19.685" width="0.3048" layer="16"/>
-<wire x1="81.915" y1="20.32" x2="81.28" y2="19.685" width="0.3048" layer="16"/>
-<wire x1="82.55" y1="20.32" x2="81.915" y2="20.32" width="0.3048" layer="16"/>
-<wire x1="9.525" y1="17.145" x2="9.09" y2="16.7" width="0.3048" layer="16"/>
-<via x="101.6" y="12.7" extent="1-16" drill="0.508"/>
-<via x="81.915" y="12.7" extent="1-16" drill="0.508"/>
+<wire x1="102.87" y1="13.97" x2="104.14" y2="15.24" width="0.3048" layer="1"/>
+<wire x1="83.185" y1="13.97" x2="102.87" y2="13.97" width="0.3048" layer="16"/>
+<wire x1="83.185" y1="20.32" x2="83.185" y2="13.97" width="0.3048" layer="1"/>
+<wire x1="83.82" y1="20.955" x2="83.185" y2="20.32" width="0.3048" layer="1"/>
+<wire x1="83.82" y1="21.59" x2="83.82" y2="20.955" width="0.3048" layer="1"/>
+<wire x1="104.14" y1="15.24" x2="104.32" y2="15.24" width="0.3048" layer="1"/>
+<wire x1="16.51" y1="24.13" x2="10.795" y2="18.415" width="0.3048" layer="16"/>
+<wire x1="78.74" y1="24.13" x2="16.51" y2="24.13" width="0.3048" layer="16"/>
+<wire x1="81.915" y1="20.955" x2="78.74" y2="24.13" width="0.3048" layer="16"/>
+<wire x1="82.55" y1="20.955" x2="81.915" y2="20.955" width="0.3048" layer="16"/>
+<wire x1="83.185" y1="21.59" x2="82.55" y2="20.955" width="0.3048" layer="16"/>
+<wire x1="83.82" y1="21.59" x2="83.185" y2="21.59" width="0.3048" layer="16"/>
+<wire x1="10.795" y1="18.415" x2="10.36" y2="17.97" width="0.3048" layer="16"/>
+<via x="102.87" y="13.97" extent="1-16" drill="0.508"/>
+<via x="83.185" y="13.97" extent="1-16" drill="0.508"/>
 </signal>
 <signal name="N$1">
 <contactref element="J2" pad="1"/>
 <contactref element="J2" pad="3"/>
 <contactref element="L2" pad="2"/>
-<wire x1="55.245" y1="6.35" x2="60.325" y2="1.27" width="0.3048" layer="16"/>
-<wire x1="53.34" y1="6.35" x2="55.245" y2="6.35" width="0.3048" layer="16"/>
-<wire x1="60.325" y1="1.27" x2="60.65" y2="0.96" width="0.3048" layer="16"/>
-<wire x1="53.34" y1="6.35" x2="53.28" y2="6.24" width="0.3048" layer="16"/>
-<wire x1="52.705" y1="5.715" x2="49.53" y2="2.54" width="0.3048" layer="16"/>
-<wire x1="52.705" y1="5.715" x2="53.28" y2="6.24" width="0.3048" layer="16"/>
+<wire x1="56.515" y1="7.62" x2="61.595" y2="2.54" width="0.3048" layer="16"/>
+<wire x1="54.61" y1="7.62" x2="56.515" y2="7.62" width="0.3048" layer="16"/>
+<wire x1="61.595" y1="2.54" x2="61.92" y2="2.23" width="0.3048" layer="16"/>
+<wire x1="54.61" y1="7.62" x2="54.55" y2="7.51" width="0.3048" layer="16"/>
+<wire x1="53.975" y1="6.985" x2="50.8" y2="3.81" width="0.3048" layer="16"/>
+<wire x1="53.975" y1="6.985" x2="54.55" y2="7.51" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="J2" pad="2"/>
 <contactref element="L2" pad="1"/>
-<wire x1="58.42" y1="20.955" x2="60.325" y2="20.955" width="0.3048" layer="1"/>
-<wire x1="58.42" y1="12.7" x2="58.42" y2="20.955" width="0.3048" layer="1"/>
-<wire x1="55.245" y1="9.525" x2="58.42" y2="12.7" width="0.3048" layer="1"/>
-<wire x1="46.355" y1="9.525" x2="55.245" y2="9.525" width="0.3048" layer="1"/>
-<wire x1="46.355" y1="6.35" x2="46.355" y2="9.525" width="0.3048" layer="1"/>
-<wire x1="60.325" y1="20.955" x2="60.65" y2="20.96" width="0.3048" layer="1"/>
-<wire x1="46.355" y1="6.35" x2="45.78" y2="6.24" width="0.3048" layer="1"/>
+<wire x1="59.69" y1="22.225" x2="61.595" y2="22.225" width="0.3048" layer="1"/>
+<wire x1="59.69" y1="13.97" x2="59.69" y2="22.225" width="0.3048" layer="1"/>
+<wire x1="56.515" y1="10.795" x2="59.69" y2="13.97" width="0.3048" layer="1"/>
+<wire x1="47.625" y1="10.795" x2="56.515" y2="10.795" width="0.3048" layer="1"/>
+<wire x1="47.625" y1="7.62" x2="47.625" y2="10.795" width="0.3048" layer="1"/>
+<wire x1="61.595" y1="22.225" x2="61.92" y2="22.23" width="0.3048" layer="1"/>
+<wire x1="47.625" y1="7.62" x2="47.05" y2="7.51" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="L2" pad="3"/>
 <contactref element="C4" pad="2"/>
-<wire x1="59.055" y1="21.59" x2="54.84" y2="21.59" width="0.3048" layer="1"/>
-<wire x1="60.325" y1="22.86" x2="59.055" y2="21.59" width="0.3048" layer="1"/>
-<wire x1="67.945" y1="22.86" x2="60.325" y2="22.86" width="0.3048" layer="1"/>
-<wire x1="67.945" y1="21.59" x2="67.945" y2="22.86" width="0.3048" layer="1"/>
-<wire x1="67.945" y1="21.59" x2="68.15" y2="20.96" width="0.3048" layer="1"/>
+<wire x1="60.325" y1="22.86" x2="56.11" y2="22.86" width="0.3048" layer="1"/>
+<wire x1="61.595" y1="24.13" x2="60.325" y2="22.86" width="0.3048" layer="1"/>
+<wire x1="69.215" y1="24.13" x2="61.595" y2="24.13" width="0.3048" layer="1"/>
+<wire x1="69.215" y1="22.86" x2="69.215" y2="24.13" width="0.3048" layer="1"/>
+<wire x1="69.215" y1="22.86" x2="69.42" y2="22.23" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="C4" pad="1"/>
 <contactref element="Q2" pad="2"/>
 <contactref element="R10" pad="1"/>
 <contactref element="R11" pad="1"/>
-<wire x1="52.07" y1="21.59" x2="52.07" y2="19.05" width="0.3048" layer="1"/>
-<wire x1="52.07" y1="19.05" x2="52.07" y2="18.415" width="0.3048" layer="1"/>
-<wire x1="52.07" y1="18.415" x2="52.07" y2="16.51" width="0.3048" layer="1"/>
-<wire x1="52.07" y1="16.51" x2="51.89" y2="16.51" width="0.3048" layer="1"/>
-<wire x1="52.07" y1="21.59" x2="51.84" y2="21.59" width="0.3048" layer="1"/>
-<wire x1="101.6" y1="6.35" x2="102.87" y2="5.08" width="0.3048" layer="1"/>
-<wire x1="96.52" y1="11.43" x2="101.6" y2="6.35" width="0.3048" layer="16"/>
-<wire x1="59.055" y1="11.43" x2="96.52" y2="11.43" width="0.3048" layer="16"/>
-<wire x1="57.15" y1="13.335" x2="59.055" y2="11.43" width="0.3048" layer="16"/>
-<wire x1="57.15" y1="17.145" x2="57.15" y2="13.335" width="0.3048" layer="1"/>
-<wire x1="55.245" y1="19.05" x2="57.15" y2="17.145" width="0.3048" layer="1"/>
-<wire x1="52.07" y1="19.05" x2="55.245" y2="19.05" width="0.3048" layer="1"/>
-<wire x1="102.87" y1="5.08" x2="103.05" y2="5.08" width="0.3048" layer="1"/>
-<wire x1="52.07" y1="18.415" x2="45.72" y2="18.415" width="0.3048" layer="1"/>
-<wire x1="45.72" y1="18.415" x2="45.72" y2="17.958" width="0.3048" layer="1"/>
-<via x="101.6" y="6.35" extent="1-16" drill="0.508"/>
-<via x="57.15" y="13.335" extent="1-16" drill="0.508"/>
+<wire x1="53.34" y1="22.86" x2="53.34" y2="20.32" width="0.3048" layer="1"/>
+<wire x1="53.34" y1="20.32" x2="53.34" y2="19.685" width="0.3048" layer="1"/>
+<wire x1="53.34" y1="19.685" x2="53.34" y2="17.78" width="0.3048" layer="1"/>
+<wire x1="53.34" y1="17.78" x2="53.16" y2="17.78" width="0.3048" layer="1"/>
+<wire x1="53.34" y1="22.86" x2="53.11" y2="22.86" width="0.3048" layer="1"/>
+<wire x1="102.87" y1="7.62" x2="104.14" y2="6.35" width="0.3048" layer="1"/>
+<wire x1="97.79" y1="12.7" x2="102.87" y2="7.62" width="0.3048" layer="16"/>
+<wire x1="60.325" y1="12.7" x2="97.79" y2="12.7" width="0.3048" layer="16"/>
+<wire x1="58.42" y1="14.605" x2="60.325" y2="12.7" width="0.3048" layer="16"/>
+<wire x1="58.42" y1="18.415" x2="58.42" y2="14.605" width="0.3048" layer="1"/>
+<wire x1="56.515" y1="20.32" x2="58.42" y2="18.415" width="0.3048" layer="1"/>
+<wire x1="53.34" y1="20.32" x2="56.515" y2="20.32" width="0.3048" layer="1"/>
+<wire x1="104.14" y1="6.35" x2="104.32" y2="6.35" width="0.3048" layer="1"/>
+<wire x1="53.34" y1="19.685" x2="46.99" y2="19.685" width="0.3048" layer="1"/>
+<wire x1="46.99" y1="19.685" x2="46.99" y2="19.228" width="0.3048" layer="1"/>
+<via x="102.87" y="7.62" extent="1-16" drill="0.508"/>
+<via x="58.42" y="14.605" extent="1-16" drill="0.508"/>
 </signal>
 <signal name="N$7">
 <contactref element="Q2" pad="1"/>
 <contactref element="R9" pad="1"/>
 <contactref element="C5" pad="1"/>
-<wire x1="51.84" y1="12.7" x2="47.17" y2="12.7" width="0.3048" layer="1"/>
-<wire x1="46.99" y1="13.97" x2="44.45" y2="16.51" width="0.3048" layer="1"/>
-<wire x1="46.99" y1="12.7" x2="46.99" y2="13.97" width="0.3048" layer="1"/>
-<wire x1="44.45" y1="16.51" x2="44.25" y2="16.7" width="0.3048" layer="1"/>
-<wire x1="46.99" y1="12.7" x2="47.17" y2="12.7" width="0.3048" layer="1"/>
+<wire x1="53.11" y1="13.97" x2="48.44" y2="13.97" width="0.3048" layer="1"/>
+<wire x1="48.26" y1="15.24" x2="45.72" y2="17.78" width="0.3048" layer="1"/>
+<wire x1="48.26" y1="13.97" x2="48.26" y2="15.24" width="0.3048" layer="1"/>
+<wire x1="45.72" y1="17.78" x2="45.52" y2="17.97" width="0.3048" layer="1"/>
+<wire x1="48.26" y1="13.97" x2="48.44" y2="13.97" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="Q2" pad="3"/>
 <contactref element="R8" pad="1"/>
 <contactref element="C6" pad="2"/>
-<wire x1="96.647" y1="3.937" x2="97.79" y2="5.08" width="0.3048" layer="1"/>
-<wire x1="80.645" y1="20.955" x2="80.645" y2="17.78" width="0.3048" layer="1"/>
-<wire x1="80.645" y1="17.78" x2="80.645" y2="5.3086" width="0.3048" layer="1"/>
-<wire x1="81.915" y1="22.225" x2="80.645" y2="20.955" width="0.3048" layer="16"/>
-<wire x1="86.995" y1="22.225" x2="81.915" y2="22.225" width="0.3048" layer="16"/>
-<wire x1="88.265" y1="20.955" x2="86.995" y2="22.225" width="0.3048" layer="16"/>
-<wire x1="90.805" y1="22.225" x2="89.535" y2="20.955" width="0.3048" layer="16"/>
-<wire x1="90.805" y1="22.86" x2="90.805" y2="22.225" width="0.3048" layer="16"/>
-<wire x1="91.44" y1="22.86" x2="90.805" y2="22.86" width="0.3048" layer="16"/>
-<wire x1="97.79" y1="5.08" x2="97.97" y2="5.08" width="0.3048" layer="1"/>
-<wire x1="48.26" y1="17.78" x2="47.625" y2="17.145" width="0.3048" layer="16"/>
-<wire x1="80.01" y1="17.78" x2="48.26" y2="17.78" width="0.3048" layer="16"/>
-<wire x1="80.645" y1="17.78" x2="80.01" y2="17.78" width="0.3048" layer="1"/>
-<wire x1="47.625" y1="17.145" x2="47.19" y2="16.7" width="0.3048" layer="16"/>
-<via x="80.645" y="20.955" extent="1-16" drill="0.508"/>
-<via x="80.01" y="17.78" extent="1-16" drill="0.508"/>
-<wire x1="96.393" y1="4.191" x2="96.647" y2="3.937" width="0.3048" layer="1"/>
-<wire x1="95.8342" y1="3.6322" x2="96.393" y2="4.191" width="0.3048" layer="1"/>
-<wire x1="95.5548" y1="3.6322" x2="95.8342" y2="3.6322" width="0.3048" layer="1"/>
-<wire x1="95.2754" y1="3.3528" x2="95.5548" y2="3.6322" width="0.3048" layer="1"/>
-<wire x1="94.996" y1="3.6322" x2="95.2754" y2="3.3528" width="0.3048" layer="1"/>
-<wire x1="93.8784" y1="3.6322" x2="94.996" y2="3.6322" width="0.3048" layer="1"/>
-<wire x1="93.599" y1="3.3528" x2="93.8784" y2="3.6322" width="0.3048" layer="1"/>
-<wire x1="82.7024" y1="3.3528" x2="93.599" y2="3.3528" width="0.3048" layer="1"/>
-<wire x1="80.7466" y1="5.3086" x2="82.7024" y2="3.3528" width="0.3048" layer="1"/>
-<wire x1="80.7466" y1="5.3086" x2="80.645" y2="5.3086" width="0.3048" layer="1"/>
-<wire x1="88.265" y1="20.955" x2="89.535" y2="20.955" width="0.3048" layer="16"/>
+<wire x1="81.915" y1="22.225" x2="81.915" y2="19.05" width="0.3048" layer="1"/>
+<wire x1="83.185" y1="23.495" x2="81.915" y2="22.225" width="0.3048" layer="16"/>
+<wire x1="88.265" y1="23.495" x2="83.185" y2="23.495" width="0.3048" layer="16"/>
+<wire x1="89.535" y1="22.225" x2="88.265" y2="23.495" width="0.3048" layer="16"/>
+<wire x1="92.075" y1="23.495" x2="90.805" y2="22.225" width="0.3048" layer="16"/>
+<wire x1="92.075" y1="24.13" x2="92.075" y2="23.495" width="0.3048" layer="16"/>
+<wire x1="92.71" y1="24.13" x2="92.075" y2="24.13" width="0.3048" layer="16"/>
+<wire x1="49.53" y1="19.05" x2="48.895" y2="18.415" width="0.3048" layer="16"/>
+<wire x1="81.28" y1="19.05" x2="49.53" y2="19.05" width="0.3048" layer="16"/>
+<wire x1="81.915" y1="19.05" x2="81.28" y2="19.05" width="0.3048" layer="1"/>
+<wire x1="48.895" y1="18.415" x2="48.46" y2="17.97" width="0.3048" layer="16"/>
+<via x="81.915" y="22.225" extent="1-16" drill="0.508"/>
+<via x="81.28" y="19.05" extent="1-16" drill="0.508"/>
+<wire x1="89.535" y1="22.225" x2="90.805" y2="22.225" width="0.3048" layer="16"/>
+<wire x1="98.5012" y1="6.2992" x2="99.06" y2="6.2992" width="0.3048" layer="1"/>
+<wire x1="97.1042" y1="4.9022" x2="98.5012" y2="6.2992" width="0.3048" layer="1"/>
+<wire x1="95.1484" y1="4.9022" x2="97.1042" y2="4.9022" width="0.3048" layer="1"/>
+<wire x1="94.869" y1="4.6228" x2="95.1484" y2="4.9022" width="0.3048" layer="1"/>
+<wire x1="90.1192" y1="4.6228" x2="94.869" y2="4.6228" width="0.3048" layer="1"/>
+<wire x1="81.1784" y1="13.5636" x2="90.1192" y2="4.6228" width="0.3048" layer="1"/>
+<wire x1="81.1784" y1="18.8722" x2="81.1784" y2="13.5636" width="0.3048" layer="1"/>
+<wire x1="99.06" y1="6.2992" x2="99.24" y2="6.35" width="0.3048" layer="1"/>
+<wire x1="81.1784" y1="18.8722" x2="81.28" y2="19.05" width="0.3048" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
