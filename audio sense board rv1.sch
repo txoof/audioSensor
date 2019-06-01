@@ -275,23 +275,6 @@
 <wire x1="-2.5" y1="-4.8" x2="-2.5" y2="-2.4" width="0.2" layer="21"/>
 <circle x="-3.494" y="-2.588" radius="0.071" width="0.2" layer="25"/>
 </package>
-<package name="RESC3216X60N">
-<description>&lt;b&gt;CRCW1206&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.5" y="0" dx="1.8" dy="1.05" layer="1" rot="R90"/>
-<smd name="2" x="1.5" y="0" dx="1.8" dy="1.05" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.275" y1="1.15" x2="2.275" y2="1.15" width="0.05" layer="51"/>
-<wire x1="2.275" y1="1.15" x2="2.275" y2="-1.15" width="0.05" layer="51"/>
-<wire x1="2.275" y1="-1.15" x2="-2.275" y2="-1.15" width="0.05" layer="51"/>
-<wire x1="-2.275" y1="-1.15" x2="-2.275" y2="1.15" width="0.05" layer="51"/>
-<wire x1="-1.575" y1="0.8" x2="1.575" y2="0.8" width="0.1" layer="51"/>
-<wire x1="1.575" y1="0.8" x2="1.575" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="1.575" y1="-0.8" x2="-1.575" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="-1.575" y1="-0.8" x2="-1.575" y2="0.8" width="0.1" layer="51"/>
-<wire x1="0" y1="0.7" x2="0" y2="-0.7" width="0.2" layer="21"/>
-</package>
 <package name="RESC3116X70N">
 <description>&lt;b&gt;ERJ8G&lt;/b&gt;&lt;br&gt;
 </description>
@@ -433,16 +416,6 @@
 <pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
 </symbol>
 <symbol name="ERJ8GEYJ101V">
-<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle"/>
-<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
-<symbol name="CRCW1206100RJNEAC">
 <wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
@@ -703,33 +676,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ERJ8GEYJ101V.
 <attribute name="MANUFACTURER_PART_NUMBER" value="ERJ8GEYJ101V" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CRCW1206100RJNEAC" prefix="R">
-<description>&lt;b&gt;Thick Film Resistors - SMD 1/4Watt 100ohms 5% Commercial Use&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/CRCW1206100RJNEAC.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="CRCW1206100RJNEAC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RESC3216X60N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 1/4Watt 100ohms 5% Commercial Use" constant="no"/>
-<attribute name="HEIGHT" value="0.6mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW1206100RJNEAC" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="71-CRCW1206100RJNEAC" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW1206100RJNEAC" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
 </technology>
@@ -2287,7 +2233,7 @@ part number 2062-2P from STA</description>
 <part name="R7" library="Samac Populated" deviceset="ERJ8GEYJ101V" device="" value="100"/>
 <part name="R13" library="Samac Populated" deviceset="ERJ8GEYJ101V" device="" value="100"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R14" library="Samac Populated" deviceset="CRCW1206100RJNEAC" device="" value="100"/>
+<part name="R14" library="Samac Populated" deviceset="ERJ8GEYJ101V" device="" value="100"/>
 <part name="J1" library="Samac Populated" deviceset="PJRAN1X1U01X" device=""/>
 <part name="L1" library="My Library" deviceset="IT237" device="" value="IT237"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -2729,7 +2675,6 @@ part number 2062-2P from STA</description>
 <pinref part="R14" gate="G$1" pin="1"/>
 <pinref part="IR_LED" gate="G$1" pin="1"/>
 <wire x1="-142.24" y1="73.66" x2="-157.48" y2="73.66" width="0.1524" layer="91"/>
-<label x="-142.24" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="IRLED" class="0">
